@@ -1,0 +1,337 @@
+=== PAGE 1 ===
+Interaksi
+Manusia dan
+Komputer
+www.Axlytic.compage 001
+M. Gehan Junior
+250104040186
+
+=== PAGE 2 ===
+www.Axlytic.compage 002
+Pendahuluan
+Layanan sentral mahasiswa untuk registrasi rencana
+studi (KRS), melihat hasil studi (KHS/Transkrip),
+memantau status pembayaran UKT, serta arsip
+akademik.
+Fungsi Utama
+Menilai kesesuaian antarmuka sistem dengan 10
+Usability Heuristics (Jakob Nielsen).
+Mengevaluasi apakah sistem sudah memenuhi 5
+komponen kualitas Usability.
+Tujuan Analisis
+
+=== PAGE 3 ===
+www.Axlytic.compage 003
+Heuristik 1 – Visibility of System
+Status
+Pengertian: 
+Sistem harus selalu memberikan
+informasi kepada pengguna tentang apa
+yang sedang terjadi melalui umpan balik
+(feedback) yang sesuai dalam waktu
+wajar.
+Prinsip Diterapkan:
+Pada halaman Registrasi/Arsip KRS, sistem
+menampilkan status kelulusan KRS secara
+gamblang dengan badge toska
+bertuliskan ✓  TELAH DI-ACC oleh Dosen PA
+(M. Hasby, Drs., M.Kom).
+Sistem juga menampilkan total beban SKS
+yang diambil (23 SKS) dan status menu
+aktif di sidebar. Mahasiswa langsung tahu
+bahwa status KRS-nya sudah sah dan
+diverifikasi.
+
+=== PAGE 4 ===
+www.Axlytic.compage 004
+Heuristik 2 – Match Between
+System and the Real World
+Pengertian: 
+Sistem harus berbicara dengan bahasa
+pengguna, menggunakan kata, frasa,
+dan konsep yang familier, bukan istilah
+teknis sistem komputer.
+Prinsip Diterapkan:
+Menu-menu navigasi menggunakan istilah
+akademik umum yang dipahami
+mahasiswa: Dashboard, Registrasi, KRS,
+Perkuliahan, Nilai, Pembayaran, Aktivitas &
+Prestasi.
+Ikon visual yang digunakan sesuai dunia
+nyata: Ikon toga/piala untuk prestasi,
+buku/kalender untuk perkuliahan,
+kartu/dompet untuk pembayaran.
+Catatan / Evaluasi:
+Penulisan label semester aktif masih
+menggunakan kode sistem: 20261, yang
+bagi mahasiswa awam/baru lebih
+mudah jika ditulis eksplisit "Semester
+Ganjil 2026/2027".
+
+=== PAGE 5 ===
+www.Axlytic.compage 005
+Heuristik 3 – User Control and
+Freedom
+Pengertian: 
+Pengguna sering salah memilih opsi dan
+memerlukan "pintu keluar darurat"
+(emergency exit) tanpa harus melalui
+proses panjang (misal: Undo, Cancel,
+atau edit).
+Prinsip Diterapkan:
+Saat masa pengisian awal, mahasiswa
+memiliki kebebasan untuk menambah dan
+membatalkan pilihan mata kuliah sebelum
+diajukan.
+Prinsip Tidak Diterapkan / Dilanggar:
+Begitu status menjadi PROSES REGISTRASI
+SELESAI atau TELAH DI-ACC, seluruh
+kontrol pengguna dikunci secara
+permanen di antarmuka.
+Tidak ada fitur Request Batal ACC atau
+tombol pembatalan mandiri jika
+mahasiswa tidak sengaja mengajukan
+kelas yang salah. Mahasiswa harus
+menemui Dosen PA atau operator
+akademik secara manual untuk
+membuka kuncian tersebut.
+
+=== PAGE 6 ===
+www.Axlytic.compage 006
+Heuristik 4 – Consistency and
+Standards
+Pengertian: 
+Pengguna tidak perlu bingung apakah
+kata, situasi, atau aksi yang berbeda
+memiliki arti yang sama. Antarmuka
+harus mengikuti standar platform umum.
+Prinsip Diterapkan:
+Konsistensi Layout: Pola navigasi sidebar di
+sebelah kiri, header bar di bagian atas, dan
+tombol hamburger toggle konsisten di
+semua halaman.
+Konsistensi Warna: Tombol aksi utama
+(seperti Edit Profil, Telah Di-ACC, Print)
+secara seragam menggunakan warna
+toska/hijau khas identitas institusi.
+Catatan / Evaluasi:
+Ada redundansi visual: foto profil
+mahasiswa tampil dua kali di halaman
+Dashboard (di sidebar kiri dan kartu
+biodata utama).
+
+=== PAGE 7 ===
+www.Axlytic.compage 007
+Heuristik 4 – Consistency and
+Standards
+Pengertian: 
+Pengguna tidak perlu bingung apakah
+kata, situasi, atau aksi yang berbeda
+memiliki arti yang sama. Antarmuka
+harus mengikuti standar platform umum.
+Prinsip Diterapkan:
+Konsistensi Layout: Pola navigasi sidebar di
+sebelah kiri, header bar di bagian atas, dan
+tombol hamburger toggle konsisten di
+semua halaman.
+Konsistensi Warna: Tombol aksi utama
+(seperti Edit Profil, Telah Di-ACC, Print)
+secara seragam menggunakan warna
+toska/hijau khas identitas institusi.
+Catatan / Evaluasi:
+Ada redundansi visual: foto profil
+mahasiswa tampil dua kali di halaman
+Dashboard (di sidebar kiri dan kartu
+biodata utama).
+
+=== PAGE 8 ===
+www.Axlytic.compage 008
+Heuristik 5 – Error Prevention
+Pengertian: 
+Desain yang baik berusaha mencegah
+terjadinya kesalahan sejak awal, bukan
+hanya menampilkan pesan kesalahan
+setelah terjadi.
+Prinsip Diterapkan:
+Sistem membatasi jumlah pengambilan
+mata kuliah sesuai batas maksimal SKS
+(terkunci pada 23 SKS).
+Sistem mengunci pilihan mata kuliah saat
+proses registrasi selesai agar tidak terjadi
+pengubahan data tidak sengaja
+(unintended modification) setelah disetujui
+dosen.
+Catatan / Evaluasi:
+Diperlukan konfirmasi pop-up bertingkat
+(dialog box) sebelum mahasiswa
+mengklik tombol finalisasi registrasi,
+untuk mencegah terklik secara tidak
+sengaja sebelum semua mata kuliah
+selesai dipilih.
+
+=== PAGE 9 ===
+www.Axlytic.compage 009
+Heuristik 6 – Recognition
+Rather than Recall
+Pengertian: 
+Meminimalkan beban ingatan pengguna
+dengan membuat objek, tindakan, dan
+opsi terlihat jelas di layar, daripada
+memaksa pengguna mengingatnya.
+Prinsip Diterapkan:
+Pada tabel rencana studi, sistem
+menampilkan Nama Lengkap Mata Kuliah
+(Interaksi Manusia & Komputer,
+Pemrograman Web 1, dll.) berdampingan
+dengan kode mata kuliah, kelas, dan
+jumlah SKS.
+Mahasiswa tidak perlu menghafal kode
+mata kuliah (seperti PTI23022) untuk
+mengetahui kelas yang diambil.
+Catatan / Evaluasi:
+Jam dan ruangan kelas belum tertera
+langsung di tabel ini, sehingga
+mahasiswa masih harus mengingat atau
+membuka menu jadwal perkuliahan
+terpisah.
+
+=== PAGE 10 ===
+www.Axlytic.compage 010
+Heuristik 7 – Flexibility and
+Efficiency of Use
+Pengertian: 
+Menyediakan akselerator (shortcut) dan
+fitur fleksibel yang mempercepat
+pekerjaan pengguna berpengalaman
+maupun pemula.
+Prinsip Diterapkan:
+Terdapat tombol multifungsi PRINT ▾
+dengan dropdown pilihan instan: PRINT KRS
+dan PRINT JADWAL.
+Pengguna tidak perlu repot mencari menu
+jadwal perkuliahan secara terpisah jika
+hanya ingin mencetak jadwal kuliah
+mingguan; bisa langsung diakses dari satu
+tombol pintas.
+Catatan / Evaluasi:
+Belum tersedia fitur pencarian cepat
+(instant search box) atau filter
+hari/semester di dalam tabel mata
+kuliah.
+
+=== PAGE 11 ===
+www.Axlytic.compage 011
+Heuristik 8 – Aesthetic and
+Minimalist Design
+Pengertian: 
+Antarmuka tidak boleh memuat
+informasi yang tidak relevan atau jarang
+dibutuhkan, agar tidak mengaburkan
+informasi penting.
+Prinsip Diterapkan:
+Desain tabel disajikan dengan gaya
+minimalis berbasis card putih di atas latar
+abu-abu lembut.
+Tipografi sederhana dan terbaca jelas,
+garis pemisah baris tabel rapi, serta tidak
+ada hiasan visual atau banner animasi
+yang mengganggu fokus membaca data
+akademik.
+Catatan / Evaluasi:
+Pemanfaatan whitespace pada layar
+monitor lebar masih menyisakan ruang
+kosong yang cukup besar di sisi kanan.
+
+=== PAGE 12 ===
+www.Axlytic.compage 012
+Heuristik 9: Help users recognize,
+diagnose, and recover from errors
+Diterapkan: 
+Ada penanda status jika proses registrasi
+belum selesai atau ada tagihan belum
+dibayar.
+Tidak Diterapkan: 
+Saat periode puncak (war KRS) atau server
+sibuk, sistem sering kali hanya
+mengeluarkan halaman error standar web
+browser (504 Gateway Time-out atau 500
+Internal Server Error) tanpa pesan
+berbahasa manusia yang memandu apa
+yang harus dilakukan mahasiswa (misal:
+"Server sedang sibuk, coba kembali 5
+menit lagi").
+
+=== PAGE 13 ===
+www.Axlytic.compage 013
+Heuristik 10: Help and documentation
+Diterapkan: 
+Tersedia pengumuman mengenai
+prosedur lupa password mandiri di
+beranda.
+Tidak Diterapkan:
+Belum ada menu khusus dokumentasi,
+panduan pengguna (User Guide PDF), FAQ,
+atau fitur obrolan helpdesk langsung di
+dalam antarmuka SIAKAD untuk memandu
+mahasiswa baru.
+
+=== PAGE 14 ===
+www.Axlytic.compage 014
+Heuristik 9 & 10
+Heuristik 9: Help users recognize, diagnose, and recover from errors
+Diterapkan: Ada penanda status jika proses registrasi belum selesai atau ada tagihan
+belum dibayar.
+Tidak Diterapkan: Saat periode puncak (war KRS) atau server sibuk, sistem sering kali
+hanya mengeluarkan halaman error standar web browser (504 Gateway Time-out
+atau 500 Internal Server Error) tanpa pesan berbahasa manusia yang memandu apa
+yang harus dilakukan mahasiswa (misal: "Server sedang sibuk, coba kembali 5 menit
+lagi").
+Heuristik 10: Help and documentation
+Diterapkan: Tersedia pengumuman mengenai prosedur lupa password mandiri di
+beranda.
+Tidak Diterapkan: Belum ada menu khusus dokumentasi, panduan pengguna (User
+Guide PDF), FAQ, atau fitur obrolan helpdesk langsung di dalam antarmuka SIAKAD
+untuk memandu mahasiswa baru.
+
+=== PAGE 15 ===
+Komponen
+Usability Hasil Evaluasi pada SIAKAD UIN Antasari Status
+1. Learnability Alur navigasi mudah dipelajari oleh mahasiswa baru dalam 1–2 kali penggunaankarena struktur menu standar (dashboard, KRS, nilai). Baik
+2. Efficiency
+Pada hari biasa, proses melihat KHS dan cetak KRS sangat cepat (terbantu tombol
+shortcut). Namun saat masa awal KRS serentak, efisiensi menurun karena respons
+server melambat.
+Cukup
+3. Memorability
+Sangat baik. Meskipun mahasiswa hanya membuka menu KRS setiap 6 bulan sekali
+(pergantian semester), mereka tidak lupa alur pengisiannya karena tata letaknya
+tidak berubah-ubah.
+Sangat Baik
+4. Errors
+Pencegahan kesalahan input sudah bagus (otomatis batas 23 SKS). Namun
+penanganan saat terjadi kesalahan (misal salah pilih kelas dan sudah di-ACC)
+memerlukan perbaikan manual yang lambat.
+Cukup
+5. Satisfaction Pengguna merasa terbantu dengan kejelasan informasi dan status verifikasi,meskipun tampilan visual tergolong formal dan sedikit kaku. Baik
+page 005
+
+=== PAGE 16 ===
+Kesimpulan & Rekomendasi
+Solusi
+www.Axlytic.compage 016
+YA, SIAKAD UIN Antasari sudah USABLE (Layak dan Memenuhi
+Komponen Usability) untuk menunjang fungsi pokok kegiatan
+administrasi akademik mahasiswa.
+Apakah SIAKAD UIN Antasari dapat dikatakan "Usable"?
+a.User Freedom: Menambahkan fitur "Ajukan Pembatalan ACC
+KRS" secara mandiri sebelum masa revisi berakhir.
+b.Error Recovery: Menampilkan pesan error yang lebih ramah
+pengguna saat server mengalami kepadatan trafik.
+c.Help & Documentation: Menambahkan tombol menu "Bantuan /
+FAQ" di bagian pojok kanan atas layar.
+Rekomendasi Perbaikan untuk Meningkatkan Nilai Usability:
+
+=== PAGE 17 ===
+www.Axlytic.compage 017
+Thank You!
+

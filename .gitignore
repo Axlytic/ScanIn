@@ -1,0 +1,15 @@
+# Temporary web dump and scratch files
+*.html
+*.tmp
+
+# Heavy university lecture slides (dapat diakses dari e-learning kampus)
+Interaksi Manusia dan Komputer-W*.pdf
+Blue Modern Illustrative Computer Software Presentation.pdf
+Evaluasi Usability & 10 Usability Heuristics pada Website SIAKAD UIN Antasari (2).pdf
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
