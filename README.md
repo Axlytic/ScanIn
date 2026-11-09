@@ -4,7 +4,7 @@
 
 ---
 
-## 👥 Identitas Tim Pengembang (Kelompok 3)
+## 👥 Identitas Tim Pengembang (Kelompok 4)
 
 * **Program Studi:** S1 Teknologi Informasi
 * **Institusi:** Universitas Islam Negeri (UIN) Antasari Banjarmasin
@@ -70,3 +70,4 @@ Sistem dimodelkan menggunakan empat diagram utama:
 * `logo ScanIn.PNG`: Identitas visual dan logo aplikasi ScanIn.
 * `slides_canva/`: Aset visual dan bahan presentasi pemodelan sistem.
 * `Presentasi_Evaluasi_Usability_SIAKAD_UIN_Antasari.pptx`: Dokumentasi evaluasi heuristik dan usability awal.
+
