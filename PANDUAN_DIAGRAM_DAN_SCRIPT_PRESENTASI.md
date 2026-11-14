@@ -119,27 +119,36 @@ Class Diagram disusun berdasarkan arsitektur **Boundary-Control-Entity (BCE)** u
 
 ### 2.4 SEQUENCE DIAGRAM: Kronologi Interaksi & Kinerja 1.4 Detik
 
-Sequence diagram memvisualisasikan interaksi pesan antar-objek secara horizontal dalam satu siklus presensi mahasiswa yang berlangsung hanya **1.4 detik**.
+Sequence diagram memvisualisasikan interaksi pesan antar-objek secara horizontal dalam tiga tahapan pengamanan dan 15 aliran pesan yang tuntas dalam **1.4 detik**.
 
 #### A. Aktor & Lifeline
-1. `Mahasiswa` (Aktor)
-2. `Web Mahasiswa` (Boundary / UI Client)
-3. `Server ScanIn` (Control / API Backend)
+1. `Mahasiswa` (Aktor Pengguna Mandiri)
+2. `Web Mahasiswa (Klien)` (Boundary / Client UI)
+3. `Server ScanIn (API)` (Control / Backend API)
 4. `Basis Data MySQL` (Entity / Database Storage)
-5. `Dosen (Proyektor)` (Aktor Penerima Live WebSocket)
+5. `Dosen (Proyektor)` (Aktor Penerima Siaran Live WebSocket)
 
-#### B. Kronologi 10 Aliran Pesan
-- **Pesan 1:** Mahasiswa membuka menu presensi di ponselnya (sensor GPS otomatis membaca koordinat).
-- **Pesan 2:** Web Mahasiswa mengirimkan koordinat spasial ke Server ScanIn.
-- **Pesan 3a (Skenario Gagal):** Jika jarak $> 30$ meter atau terdeteksi Fake GPS, server mengirim respons tolak dalam waktu **0.3 detik**.
-- **Pesan 3b (Skenario Lolos):** Jika jarak $\le 30$ meter, server mengaktifkan pemindai kamera di browser mahasiswa.
-- **Pesan 4:** Mahasiswa mengarahkan kamera ponsel ke arah QR dinamis (memakan waktu $< 1$ detik).
-- **Pesan 5:** Web Mahasiswa mengirimkan payload token dan NIM mahasiswa ke Server.
-- **Pesan 6:** Server memvalidasi usia token ($\le 10$ detik) dan memastikan tidak ada sesi aktif ganda.
-- **Pesan 7:** Server mengeksekusi perintah SQL `INSERT INTO log_presensi VALUES ('HADIR')`.
-- **Pesan 8:** Basis data mengonfirmasi transaksi berhasil (*Commit Success*).
-- **Pesan 9:** Server mengirim status respons HTTP `200 OK`, memicu tampilan centang hijau di HP mahasiswa.
-- **Pesan 10:** Server memancarkan sinyal WebSocket secara instan ke layar dashboard dosen sehingga nama mahasiswa langsung muncul di daftar hadir.
+#### B. Kronologi 15 Aliran Pesan Terurut
+* **Inisiasi Sesi:** Dosen membuka kelas, mengunci titik koordinat GPS kelas, dan Dynamic QR mulai berotasi via proyektor (TTL 10s).
+* **Tahap 1: Validasi Radius Spasial Geofencing (<= 30 Meter)**
+  - **Pesan 1:** Mahasiswa mengklik menu presensi kelas di peramban ponsel.
+  - **Pesan 2:** Web Mahasiswa membaca sensor GPS internal (`latitude`, `longitude`, `accuracy`).
+  - **Pesan 3:** Web Mahasiswa mengirimkan koordinat via HTTP POST `/api/validate-location`.
+  - **Pesan 4:** Server ScanIn menghitung jarak menggunakan formula Haversine terhadap GPS Dosen.
+  - **Percabangan ALT:**
+    - *Cabang Gagal (Jarak > 30m / Mock GPS):* **Pesan 5a:** Server melempar HTTP 403 penolakan kilat (**0.3 detik**) &rarr; **Pesan 6a:** Web menampilkan layar merah *Akses Ditolak*.
+    - *Cabang Lolos (Jarak <= 30m):* **Pesan 5b:** Server mengembalikan HTTP 200 koordinat sah &rarr; **Pesan 6b:** Web mengaktifkan kamera pemindai di browser (< 1 detik).
+* **Tahap 2: Pemindaian Dynamic QR & Verifikasi Keamanan Server**
+  - **Pesan 7:** Mahasiswa membidik kamera ke layar proyektor kelas.
+  - **Pesan 8:** Web mengirimkan payload token + NIM + DeviceID via HTTP POST `/api/submit-presence`.
+  - **Pesan 9:** Server ScanIn mendekripsi token dan memvalidasi usia token (&le; 10 detik).
+  - **Pesan 10:** Server memvalidasi token JWT dan device fingerprint untuk memastikan *Single Active Session*.
+* **Tahap 3: Persistensi Basis Data & Penyiaran Real-Time (Total 1.4 Detik)**
+  - **Pesan 11:** Server mengeksekusi perintah SQL `INSERT INTO log_presensi VALUES (nim, id_sesi, 'HADIR', NOW())`.
+  - **Pesan 12:** Basis Data MySQL mengonfirmasi transaksi berhasil (*Commit Success* dalam waktu 0.1s).
+  - **Pesan 13:** Server mengembalikan respons HTTP 200 OK ke Web Mahasiswa.
+  - **Pesan 14:** Antarmuka ponsel menampilkan animasi centang hijau *Kehadiran Berhasil Tercatat*.
+  - **Pesan 15:** Server secara instan menembakkan sinyal *Broadcast Live WebSocket* ke laptop dosen sehingga nama mahasiswa langsung bertambah di daftar hadir proyektor kelas tanpa refresh halaman.
 
 ---
 
@@ -227,18 +236,18 @@ Gunakan naskah berikut saat presentasi di depan dosen penguji. Naskah ini diranc
 
 ### SLIDE 10: SEQUENCE DIAGRAM & KINERJA SISTEM (Slide 10 di Canva)
 * **Estimasi Waktu:** 1.5 Menit  
-* **Fokus Layar:** Tunjukkan diagram widescreen teks putih di atas latar navy. Tunjukkan alur total 1.4 detik.  
-* **Skrip Pembicara:**  
-> *"Bapak/Ibu Dosen, inilah **Sequence Diagram** yang mendokumentasikan interaksi pesan antar-objek secara kronologis beserta tolok ukur kinerja sistem.  
-> Seluruh siklus presensi satu mahasiswa dari awal membuka menu hingga tercatat di layar dosen tuntas hanya dalam waktu **1.4 detik**.  
-> Mari kita cermati alurnya:  
-> Sesi diawali saat Dosen membuka kelas sehingga GPS terkunci dan Dynamic QR mulai berotasi.  
-> Pada Pesan 1 dan 2, Mahasiswa membuka menu presensi dan browser mengirim koordinat GPS ke Server.  
-> Melalui blok percabangan *alt*, jika koordinat berada di luar 30 meter atau terdeteksi manipulasi Fake GPS, server mengirim respons penolakan kilat dalam waktu **0.3 detik**.  
-> Namun jika lolos, kamera terbuka dan mahasiswa mengarahkan kamera ke layar proyektor dalam waktu kurang dari 1 detik pada Pesan 4.  
-> Pada Pesan 5 dan 6, token dinamis dan identitas mahasiswa dikirim ke server untuk diverifikasi masa berlakunya yang tidak boleh melampaui 10 detik.  
-> Begitu valid, Server mengeksekusi operasi `INSERT` ke basis data MySQL pada Pesan 7, dan mengembalikan status HTTP `200 OK` dengan centang hijau ke ponsel mahasiswa pada Pesan 9.  
-> Tepat pada Pesan 10, server menembakkan sinyal live *WebSocket* ke laptop dosen sehingga nama mahasiswa langsung bertambah di daftar hadir tanpa perlu merefresh halaman. Cepat, aman, dan tanpa latensi."*
+* **Fokus Layar:** Tunjukkan diagram widescreen teks putih di atas latar navy / dark blue. Tunjukkan alur total 1.4 detik.  
+* **Skrip Pembicara (Pembedahan Komponen demi Komponen):**  
+> *"Bapak dan Ibu Dosen, mari kita bedah visual **Sequence Diagram** di layar yang mendokumentasikan interaksi 15 pesan antar-komponen serta membuktikan tolok ukur kinerja sistem yang tuntas hanya dalam **1.4 detik**.  
+> Di bagian paling atas terdapat **lima garis hidup (*lifelines*)**: Mahasiswa, Web Klien di peramban, Server API ScanIn, Basis Data MySQL, dan Layar Proyektor Dosen. Garis putus-putus ke bawah menandakan linimasa waktu, sedangkan kotak tebal menandakan durasi aktif pemrosesan.  
+> Sesi kuliah diawali saat Dosen mengunci titik GPS kelas dan sistem langsung merotasikan Dynamic QR dengan masa aktif 10 detik ke proyektor.  
+> Masuk ke **Tahap 1 (Blok Biru Muda - Validasi Geofencing Spasial)**: Pada Pesan 1 dan 2, peramban membaca sensor GPS internal dan mengirim koordinat ke server via Pesan 3. Server menghitung formula Haversine pada Pesan 4.  
+> Perhatikan kotak percabangan **alt**: jika mahasiswa berada di luar radius 30 meter atau terdeteksi Mock/Fake GPS, server langsung melontarkan HTTP 403 penolakan kilat pada Pesan 5a dalam waktu hanya **0.3 detik**.  
+> Namun jika berada di dalam radius, pada Pesan 5b dan 6b peramban langsung mengaktifkan kamera pemindai dalam waktu di bawah 1 detik.  
+> Selanjutnya pada **Tahap 2 (Blok Kuning - Verifikasi Keamanan Server)**: Mahasiswa membidik layar pada Pesan 7, dan payload token dikirim pada Pesan 8. Di internal server, Pesan 9 dan 10 memverifikasi bahwa token tidak kedaluwarsa (&le; 10 detik) dan akun mahasiswa tidak dipakai ganda melalui validasi Single Active Session.  
+> Puncaknya pada **Tahap 3 (Blok Hijau - Persistensi & WebSocket)**: tepat pada detik ke-1.1, server mengeksekusi INSERT ke MySQL pada Pesan 11 dan menerima konfirmasi commit pada Pesan 12.  
+> Pada Pesan 13 dan 14, mahasiswa menerima HTTP 200 dengan animasi centang hijau. Dan tepat di Pesan 15, server memancarkan sinyal **live WebSocket broadcast** ke laptop dosen sehingga nama mahasiswa langsung muncul di proyektor kelas secara real-time tanpa me-refresh halaman.  
+> Seluruh siklus kronologis ini membuktikan kinerja arsitektur ScanIn yang sangat cepat, aman, dan tanpa latensi."*
 
 ---
 

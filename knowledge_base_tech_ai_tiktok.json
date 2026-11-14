@@ -1,0 +1,4384 @@
+{
+  "generated_at": "2026-11-14T17:55:00+08:00",
+  "total_resources": 36,
+  "categories": [
+    "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+    "UI/UX Design, Microinteractions & Frontend Magic (ui-ux-pro-max, FigCraft)",
+    "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+    "Content Creation, Video & Media AI (Claude Animasi, Watermark Remover, Web-to-APK)",
+    "Software Engineering, Security & Systems (7 OSI Layers, k6 Load Testing, Backend Scaling)",
+    "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)"
+  ],
+  "resources": [
+    {
+      "id": "yt_QflqZIIGgH4",
+      "platform": "YouTube",
+      "url": "https://youtu.be/QflqZIIGgH4",
+      "title": "Bikin Video Animasi Cuma Dari Voice Over & Naskah",
+      "creator": {
+        "name": "Yon$",
+        "handle": "@Yonszy",
+        "url": "https://www.youtube.com/@Yonszy",
+        "focus": "AI Automation, Faceless Content, Animation Tutorials"
+      },
+      "category": "Content Creation, Video & Media AI",
+      "stats": {
+        "type": "Long/Short Tutorial",
+        "duration": "Sekitar 30 menit praktik (MP4 hasil akhir)"
+      },
+      "tools_mentioned": [
+        "Claude AI (Skill: cartoon audio short)",
+        "Google AI Studio (TTS / Voice Over)",
+        "Google Gemini (Naskah & Ide Cerita)"
+      ],
+      "summary": "Panduan langkah demi langkah memproduksi video animasi vertikal (YouTube Shorts/TikTok/Reels) secara otomatis hanya bermodal naskah narasi dan audio voice over tanpa software editing manual (CapCut/After Effects) atau video generator berbayar.",
+      "workflow": [
+        "1. Buat naskah dan alur cerita menggunakan Master Prompt di Gemini.",
+        "2. Buat audio Voice Over gratis berkualitas tinggi di Google AI Studio (fitur Text to Speech).",
+        "3. Pasang custom skill 'cartoon audio short' di Claude.",
+        "4. Upload naskah dan file audio ke Claude, biarkan skill menyusun storyboard dan merender video animasi MP4.",
+        "5. Trik hindari limit Claude: proses per segmen naskah singkat (30-60 detik)."
+      ],
+      "key_takeaways": "Metode ini memungkinkan pembuatan konten animasi faceless dengan biaya $0 dan kecepatan tinggi, ideal untuk kanal shorts/reels.",
+      "community_insights": "Banyak kreator tertarik pada penggunaan Claude Skill sebagai video renderer lokal tanpa bergantung pada AI video generator berbayar yang mahal."
+    },
+    {
+      "id": "tt_7703130588198243602",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@aurrel.developer/video/7703130588198243602",
+      "title": "Replying to @alanupermana Eksperimen vibe designing pakai Codex + FigCraft, dari planning sampai jadi UI website dan aplikasi travel. Hasilnya cukup menarik, tapi masih ada beberapa detail yang perlu diperbaiki. Menurut kalian, AI sudah bisa diandalkan buat UI design? #Codex #FigCraft #VibeDesigning #UIDesign #AI",
+      "creator": {
+        "name": "AurRel | Full Stack Developer",
+        "handle": "@aurrel.developer",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/b2b04de31e9cc8fbb348a1043db1417a~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=97a5ddcd&x-expires=1794733200&x-signature=rmPhnYr%2BTDuLq0Wln3JmzRvrTMk%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@aurrel.developer adalah Senior Mobile Engineer & Cross-Platform Specialist yang sering membagikan benchmark komparasi AI coding tools."
+      },
+      "category": "UI/UX Design, Microinteractions & Frontend Magic (ui-ux-pro-max, FigCraft)",
+      "stats": {
+        "plays": 10845,
+        "likes": 592,
+        "comments_count": 9,
+        "shares": 34,
+        "saves": 367
+      },
+      "tools_mentioned": [
+        "OpenAI Codex",
+        "FigCraft",
+        "Figma",
+        "Antigravity"
+      ],
+      "core_lesson": "Vibe Designing UI website/mobile app travel menggunakan prompt di Codex yang terhubung ke FigCraft.",
+      "community_insights": "Perbandingan latency vs token: Netizen (@yyyyy) mencatat Codex memiliki 'thinking time' lebih lama tetapi sangat hemat kuota token, sedangkan Antigravity berpikir kilat namun mengonsumsi token lebih cepat jika tidak dibatasi.",
+      "top_comments": [
+        {
+          "id": "7703179425873150726",
+          "text": "Codex knp thinking nya lama bgt ya tapi awet bgt, beda sama antigravity cepet thinking nya dan cepet habis token",
+          "digg_count": 1,
+          "reply_total": 3,
+          "create_time": 1793536243,
+          "user": {
+            "unique_id": "bukanpilihanmu15",
+            "nickname": "yyyyy"
+          }
+        },
+        {
+          "id": "7703331266288616213",
+          "text": "kak tutor connect claude to fig craft kak 🙏",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793571598,
+          "user": {
+            "unique_id": "errorterusbang",
+            "nickname": "Debug"
+          }
+        },
+        {
+          "id": "7703176926613226260",
+          "text": "keren",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1793535652,
+          "user": {
+            "unique_id": "ericaguswaluyo",
+            "nickname": "eric agus waluyo"
+          }
+        },
+        {
+          "id": "7707317977464881938",
+          "text": "kak codex itu harus bngt langganan ya?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794499817,
+          "user": {
+            "unique_id": "cigaretteafterp00p_",
+            "nickname": "J’s"
+          }
+        },
+        {
+          "id": "7703274318930674440",
+          "text": "Total brp menit sma abis brp token nya?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793558325,
+          "user": {
+            "unique_id": "terlihat_gendut",
+            "nickname": "Moonliee"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7702661830333697301",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@prossultan/video/7702661830333697301",
+      "title": "Satu file CLAUDE.md yang disusun dari pengamatan Andrej Karpathy soal kesalahan model pas ngoding, repo-nya 226 ribu bintang di GitHub. Isinya 4 aturan: mikir dulu, kode secukupnya, ubah yang perlu aja, kerja sampai targetnya kebukti. Pasang lewat plugin Claude Code atau curl. Materi edukasi teknologi. #claudecode #karpathy #github #agent #prossultan",
+      "creator": {
+        "name": "prossultan",
+        "handle": "@prossultan",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/d92230c8ae10098b7080af061df01a08~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=329894e0&x-expires=1794733200&x-signature=Riw7q%2BBqmqucYQznhsCWi1Cxc7k%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@prossultan aktif membagikan panduan open-source berkualitas tinggi dan prompt rule engineering untuk pengembang software."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 67270,
+        "likes": 4749,
+        "comments_count": 47,
+        "shares": 369,
+        "saves": 4276
+      },
+      "tools_mentioned": [
+        "Claude Code",
+        "CLAUDE.md",
+        "Antigravity",
+        "Cursor",
+        "GitHub"
+      ],
+      "core_lesson": "File sistem aturan CLAUDE.md berdasarkan riset Andrej Karpathy (226k stars di GitHub). 4 Aturan Emas: Think first, Minimal code, Touch only necessary files, Prove until completion.",
+      "community_insights": "Aturan CLAUDE.md bersifat agnostik: bisa diaplikasikan langsung ke Antigravity, Cursor (.cursorrules), maupun ChatGPT/Codex untuk mencegah model AI merombak file sembarangan.",
+      "top_comments": [
+        {
+          "id": "7702745235986481927",
+          "text": "Keren bgt ini",
+          "digg_count": 2,
+          "reply_total": 3,
+          "create_time": 1793435147,
+          "user": {
+            "unique_id": "richardgouww",
+            "nickname": "richard gouw"
+          }
+        },
+        {
+          "id": "7702727264185991957",
+          "text": "oke ga dipake di gpt?",
+          "digg_count": 1,
+          "reply_total": 2,
+          "create_time": 1793430964,
+          "user": {
+            "unique_id": "lbtn.dre",
+            "nickname": "hasiholan"
+          }
+        },
+        {
+          "id": "7702732894201004801",
+          "text": "maaf masih pemula, sebenernya kalo nambahin beginian ( ekstension?) di vscode ini ada limitnya ga sih?",
+          "digg_count": 7,
+          "reply_total": 1,
+          "create_time": 1793432289,
+          "user": {
+            "unique_id": "rifqisaptrr",
+            "nickname": "rifqimaulanasapt"
+          }
+        },
+        {
+          "id": "7702714803630490375",
+          "text": "bisa di pakek antigravity GK bang",
+          "digg_count": 1,
+          "reply_total": 5,
+          "create_time": 1793428061,
+          "user": {
+            "unique_id": "laluaizulfahmi",
+            "nickname": "ZUL FAHMI✨"
+          }
+        },
+        {
+          "id": "7702663569163141908",
+          "text": "bedanya sama ponytail apa yaaa?",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1793416150,
+          "user": {
+            "unique_id": "muhhendrah",
+            "nickname": "cloudy☁️"
+          }
+        },
+        {
+          "id": "7702793902068581127",
+          "text": "vscode copilot ?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793446475,
+          "user": {
+            "unique_id": "l3n4r0x",
+            "nickname": "l3n4r0x"
+          }
+        },
+        {
+          "id": "7702784320738722566",
+          "text": "bisa buat nugas?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793444244,
+          "user": {
+            "unique_id": "monaaaaaaa_5",
+            "nickname": "........"
+          }
+        },
+        {
+          "id": "7702676382685414196",
+          "text": "bisa di pake di hermes bg?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793419109,
+          "user": {
+            "unique_id": "anjay1539",
+            "nickname": "￴"
+          }
+        },
+        {
+          "id": "7702766875034714901",
+          "text": "gw pake Gemini. ini bisa buat Gemini ga?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793440194,
+          "user": {
+            "unique_id": "kannon609",
+            "nickname": "Axii"
+          }
+        },
+        {
+          "id": "7702769399149413138",
+          "text": "di hermes tinggal ganti soul",
+          "digg_count": 1,
+          "reply_total": 3,
+          "create_time": 1793440770,
+          "user": {
+            "unique_id": "xeesooxees",
+            "nickname": "Han So Hee"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7707902257941138708",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@rafiul_m/video/7707902257941138708",
+      "title": "Gemini 4 Hydrogen worth kah? #ngodingpakeai #desainpakeai #gemini #antigravity #vibecoding #fyp #aicoding",
+      "creator": {
+        "name": "Raf Dev | AI Coding",
+        "handle": "@rafiul_m",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/0cbc9e416d4afa86ac47c347254f997f~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=25d5d703&x-expires=1794733200&x-signature=JBBgHjjsg76los49mR4nBgrtwqs%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@rafiul_m mengulas live testing dan komparasi model frontier Google vs Anthropic untuk developer Indonesia."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 11538,
+        "likes": 789,
+        "comments_count": 22,
+        "shares": 26,
+        "saves": 150
+      },
+      "tools_mentioned": [
+        "Google Antigravity",
+        "Gemini 4 Hydrogen",
+        "Claude 3.5/3.7 Sonnet"
+      ],
+      "core_lesson": "Uji performa model reasoning cepat Google Gemini 4 Hydrogen untuk kebutuhan coding dan live UI generation di Antigravity.",
+      "community_insights": "Netizen memperingatkan masalah *context fatigue* ('ai paling pikun kalau dalam satu chat terlalu panjang'). Menegaskan urgensi aturan Context Refresh / pembukaan percakapan baru saat chat padat.",
+      "top_comments": [
+        {
+          "id": "7707917244742861586",
+          "text": "ai paling pikun, di dalam satu chat aja tetap pikun dan suka halu",
+          "digg_count": 15,
+          "reply_total": 7,
+          "create_time": 1794639344,
+          "user": {
+            "unique_id": "mrizky__6",
+            "nickname": "M rizky Pratama"
+          }
+        },
+        {
+          "id": "7707906696845624065",
+          "text": "setara sonnet ya bang?",
+          "digg_count": 1,
+          "reply_total": 2,
+          "create_time": 1794636903,
+          "user": {
+            "unique_id": "wewesbae",
+            "nickname": "wpsiatwin."
+          }
+        },
+        {
+          "id": "7707914167352640257",
+          "text": "klo yg orchestrator ni bgusnya buat apa bg",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1794638640,
+          "user": {
+            "unique_id": "4notherpisss",
+            "nickname": "sayajugapusing"
+          }
+        },
+        {
+          "id": "7707948661108441864",
+          "text": "hydrogen enak bet dari model\" sebelumnya",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1794646665,
+          "user": {
+            "unique_id": "woongnom",
+            "nickname": "wongenom  🍀🌏🍃"
+          }
+        },
+        {
+          "id": "7707942892132188936",
+          "text": "nunggu opus versi terbarunya aja deh",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794645318,
+          "user": {
+            "unique_id": "lipppx99",
+            "nickname": "LIPPP.A"
+          }
+        },
+        {
+          "id": "7707912127210308370",
+          "text": "Gemini pro 3.1 andalan gue udah dihapus😏, pake hidrogen malah ngerombak kodingan yg gue rancang dari pro 3.1🤣🤣🤣",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1794638155,
+          "user": {
+            "unique_id": "dhidi_arashii",
+            "nickname": "Lika Liku Software"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7707534255248739602",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@bubblearn0/photo/7707534255248739602",
+      "title": "Claude bisa \"belajar SOP\" kamu lewat skill 🤯 Ini 9 skill gratis dari GitHub yang wajib dicoba, dari bikin Excel, caption yang nggak kerasa AI, sampai desain web. Mau coba yang nomor berapa duluan? Komen 👇 Simpan dulu biar nggak hilang! #claudeai #aitools #tipsai #bubblebss #fyp",
+      "creator": {
+        "name": "Bubblebsss",
+        "handle": "@bubblearn0",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/75a72660d5affca52d5f0d0d93c37d5b~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=a7d52071&x-expires=1794733200&x-signature=J2URb8fEyM%2FtpYpj2sicbf4EtmM%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@bubblearn0 menyediakan kurasi tools produktivitas AI dan automasi praktis."
+      },
+      "category": "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+      "stats": {
+        "plays": 1548,
+        "likes": 99,
+        "comments_count": 4,
+        "shares": 18,
+        "saves": 69
+      },
+      "tools_mentioned": [
+        "Claude Skills",
+        "GitHub Skills Library",
+        "Excel Automation",
+        "Humanizer"
+      ],
+      "core_lesson": "Menanamkan SOP bisnis/teknis ke Claude melalui 9 skill gratis GitHub (otomasi spreadsheet, humanizer caption non-AI, layouting web).",
+      "community_insights": "Komunitas sangat memerlukan panduan instalasi CLI skill. Standardisasi SKILL.md kini diadopsi oleh Antigravity dan Claude Code.",
+      "top_comments": [
+        {
+          "id": "7707610652617786119",
+          "text": "cara masang nya gimana bang?",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1794567966,
+          "user": {
+            "unique_id": "promengineer",
+            "nickname": "Veyora studio"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/5333cf08eda142aba2ba3fdbd927a63b~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=wKggqq4oxRQNPXAiPYBpiu0L0%2FM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/7c89a2b4411f4bbf83320d46b612c4ab~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=rwqKFZvUeNOkj0mWMswIgjXAzWI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/26b3a6af6a7b4820835d507a6d68969a~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=1cBRfFWbJkwOAOPb6abEpTZ7GBg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/aeca10b1b6834db0a37e66f4425422f2~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=tiNtamQXcBUD1eHQHtc8doBKLEo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/ec669b06e3244a2595bfff3fb8f49cba~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=ZmQxF7KaeXu2hyrP5KuPTN%2BtogI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/7c725d95af374fa0bdf9d7446d487fb2~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=%2B2Ze4K3SylUqfWzTV09SQJjtiuA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/b1a318e3161c4304b07c2498afbe4d7e~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=5Mw32r5sksVfG4Ve5evehmikrUA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/45000f19696b4e59aabc8d72ed2a5a90~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=tXfi%2BAg6mNqHMayD5E8RmqrADAg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/e85cd4bfffac44acab546eeeeaf8b448~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=pZKU6qQbFGtxeGfJ2PiDCKEU58g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7707636421703601428",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@anggiot1/video/7707636421703601428",
+      "title": "Tertarik ngga kalian kaya gini? coba komen guys #ai #aiagents #claude #vibecoding #roblox ",
+      "creator": {
+        "name": "AnggiTech",
+        "handle": "@anggiot1",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/879b4be1294b4ea2e6c3b23167951493~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=a1ecb2c6&x-expires=1794733200&x-signature=Hq%2BtUImR%2BUW%2Fc6SMMmPqAgPL0wQ%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@anggiot1 fokus membedah integrasi AI agent dengan engine game populer seperti Roblox dan game dev tooling."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 7857,
+        "likes": 447,
+        "comments_count": 35,
+        "shares": 54,
+        "saves": 349
+      },
+      "tools_mentioned": [
+        "Roblox Studio",
+        "Model Context Protocol (MCP)",
+        "Claude Code",
+        "Antigravity"
+      ],
+      "core_lesson": "Menghubungkan AI Agent langsung ke Roblox Studio via MCP tanpa butuh bridge pihak ketiga (seperti Rojo).",
+      "community_insights": "Terobosan besar (@911nev): AI Agent kini bisa langsung memanipulasi game tree, mengeksekusi script Luau, dan spawning instance langsung di dalam Roblox Studio secara live via MCP.",
+      "top_comments": [
+        {
+          "id": "7707897232582705928",
+          "text": "how",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794634687,
+          "user": {
+            "unique_id": "dnzgaming20",
+            "nickname": "DNZGAMING🎮"
+          }
+        },
+        {
+          "id": "7707750263444800257",
+          "text": "sebagus itu ga pake claude code bg?",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1794600470,
+          "user": {
+            "unique_id": "234adiccted",
+            "nickname": "ز"
+          }
+        },
+        {
+          "id": "7707870258799805191",
+          "text": "uda gaperlu pake perantara kaya rojo gitu, skrg ai cukup di hubungin langsung ke studio lewat mcp, ai bisa langsung eksekusi di studio.",
+          "digg_count": 3,
+          "reply_total": 0,
+          "create_time": 1794628406,
+          "user": {
+            "unique_id": "kraikun",
+            "nickname": "911nev"
+          }
+        },
+        {
+          "id": "7707833308932260626",
+          "text": "perasaan tinggal pke AG + mcp udah mantep ah , asalkan pke pro plan gemini wkwkwk",
+          "digg_count": 0,
+          "reply_total": 12,
+          "create_time": 1794619811,
+          "user": {
+            "unique_id": "yashakyouki.ch",
+            "nickname": "Yasha Kyouki"
+          }
+        },
+        {
+          "id": "7707830281323856661",
+          "text": "klo masalah UI gmn bg?",
+          "digg_count": 0,
+          "reply_total": 6,
+          "create_time": 1794619125,
+          "user": {
+            "unique_id": "apelaipon",
+            "nickname": "spiderparty"
+          }
+        },
+        {
+          "id": "7707820263132922644",
+          "text": "habis berapa tuh bang",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1794616802,
+          "user": {
+            "unique_id": "ach_bichar",
+            "nickname": "ach_bichar"
+          }
+        },
+        {
+          "id": "7707728249262457608",
+          "text": "rojo tu spesifik nya untuk apa bng? bukannya dari MCP server aja udah bisa AI agentnya untuk ngebikin object 3D?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794595342,
+          "user": {
+            "unique_id": "alfaizakbar_",
+            "nickname": "￴"
+          }
+        },
+        {
+          "id": "7707850736402989844",
+          "text": "Welcome to roblox studio bang.\nFYI MCP Roblox udah sepowerfull itu tanpa perlu rojo ko bang, tinggal koneksi agent ke mcp roblox. Kalo gua sih kaga pake mcp bawaan, tapi bikin mcp sendiri biar josjis bisa bikin terrain, animasi + vfx ditinggal tidur🥰",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794623873,
+          "user": {
+            "unique_id": "nut.id",
+            "nickname": "Nut"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7706879773955345684",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@moruna2/photo/7706879773955345684",
+      "title": "wajib di cobain semua sih ini 🔥 #programming #codingjourney #developerlife #devjourney #softwaredeveloper ",
+      "creator": {
+        "name": "moruna",
+        "handle": "@moruna2",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/338c15699622930556b2006a782545e6~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=0d1e9e82&x-expires=1794733200&x-signature=awIYd11f0Wb6Tw7iIpZhJKn6jDs%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@moruna2 menyajikan infografis ringkas mengenai kebiasaan dan tools programmer modern."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 2565,
+        "likes": 205,
+        "comments_count": 0,
+        "shares": 13,
+        "saves": 122
+      },
+      "tools_mentioned": [
+        "Developer Stack",
+        "Roadmap Tools",
+        "Modern IDEs"
+      ],
+      "core_lesson": "Katalog essential developer tools untuk memotong waktu development hingga 50%.",
+      "community_insights": "Pondasi yang kuat dalam memilih tooling modern mencegah technical debt dini.",
+      "top_comments": [],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/db68b404cae4414a9810bc65fee55dae~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=PZyEZhTMldUP6Ky53Fb4bleMaL8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/0b38d6928a65421ba8b05691030219b9~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=fJlQrF0t%2B03ndy79KnuUuefHAP0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/4b3806b094a14c32b6ecb4f39454918e~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=Q9ZCAneiBJC3HOR4P1ct7Z20Zjo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/81f25d7fa9214babb02d7c34ef3bdcd3~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=kS2m%2BuozxlKD2Lkqy%2F4JRH0m4ZM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/d28ddd7c4a8341cbb72fbba82f24b197~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=dauVOpZIpwwPahl1MLgs70GBXSU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/19b695065f7f4772b4f44115fe19dec1~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=cXTRMWlfUOCmTmYtrgAGmXyHx3E%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7707388363795352852",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@heekstrim/video/7707388363795352852",
+      "title": "#vibecode #tutorial #guide #gemini #google ",
+      "creator": {
+        "name": "Габен",
+        "handle": "@heekstrim",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/9ec1a9e027278d84d5023ad97a82df5c~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=d0cd2e8d&x-expires=1794733200&x-signature=0QBp1wO%2FThjA4SWHdvmDK7BQafU%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=avatar",
+        "profile_benefit": "@heekstrim aktif membagikan panduan setup teknis vibe coding untuk audiens global."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 107543,
+        "likes": 5504,
+        "comments_count": 237,
+        "shares": 614,
+        "saves": 3571
+      },
+      "tools_mentioned": [
+        "Google Antigravity CLI",
+        "Gemini Pro",
+        "Gemini Argon",
+        "Gemini Hydrogen"
+      ],
+      "core_lesson": "Panduan praktis Vibe Coding dengan Google Antigravity dan tips mengoptimalkan API tier.",
+      "community_insights": "Pengguna internasional membahas cara memilih model di CLI (Antigravity CLI command) dan manajemen kuota Free vs Pro tier.",
+      "top_comments": [
+        {
+          "id": "7707721204778550038",
+          "text": "i have pro and argon and hydrogen are unavailable in antigravity",
+          "digg_count": 7,
+          "reply_total": 19,
+          "create_time": 1794593721,
+          "user": {
+            "unique_id": "_nikdymojemenonenajdes_",
+            "nickname": "ㅤㅤㅤㅤㅤㅤ"
+          }
+        },
+        {
+          "id": "7707934970710491926",
+          "text": "use antigravity cli",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794643489,
+          "user": {
+            "unique_id": "bartekowicz",
+            "nickname": "Bartekowicz"
+          }
+        },
+        {
+          "id": "7707591652865082133",
+          "text": "What are these comments",
+          "digg_count": 47,
+          "reply_total": 5,
+          "create_time": 1794563541,
+          "user": {
+            "unique_id": "comradejjs",
+            "nickname": "comrade"
+          }
+        },
+        {
+          "id": "7707945026181792530",
+          "text": "billing tier : free tier 🗿",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794645816,
+          "user": {
+            "unique_id": "lui_fierey",
+            "nickname": "Lui Fierey"
+          }
+        },
+        {
+          "id": "7707782425027429152",
+          "text": "Is the key paid or free?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794607966,
+          "user": {
+            "unique_id": "gurkenmann115",
+            "nickname": "Gurkenmann"
+          }
+        },
+        {
+          "id": "7707491767382721298",
+          "text": "",
+          "digg_count": 30,
+          "reply_total": 9,
+          "create_time": 1794540289,
+          "user": {
+            "unique_id": "ဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪ",
+            "nickname": "ဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪ"
+          }
+        },
+        {
+          "id": "7707577606057722638",
+          "text": "да мне норм",
+          "digg_count": 14,
+          "reply_total": 12,
+          "create_time": 1794560529,
+          "user": {
+            "unique_id": "heyr1xx",
+            "nickname": "heyr1xx"
+          }
+        },
+        {
+          "id": "7707584956713845517",
+          "text": "в апи подписка не учитывается",
+          "digg_count": 44,
+          "reply_total": 1,
+          "create_time": 1794562181,
+          "user": {
+            "unique_id": "kernel666666",
+            "nickname": "."
+          }
+        },
+        {
+          "id": "7707658181128110866",
+          "text": "Đc 2 câu thì hết quota",
+          "digg_count": 0,
+          "reply_total": 7,
+          "create_time": 1794579022,
+          "user": {
+            "unique_id": "rixi404",
+            "nickname": "Rexi"
+          }
+        },
+        {
+          "id": "7707524259501785874",
+          "text": "что делать если мне не даёт туда зайти из-за региональных ограничений",
+          "digg_count": 1,
+          "reply_total": 5,
+          "create_time": 1794547852,
+          "user": {
+            "unique_id": "fayniy_sas",
+            "nickname": "FAYNIY"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7702775018178088200",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@bubblearn0/photo/7702775018178088200",
+      "title": "Bikin AI agent GRATIS 100%, cuma modal laptop 🤖💸 Slide 7 wajib dibaca! Komen “GRATIS” buat tutorialnya 👇 #aiagent #n8n #aigratis #tipsai #bubblebss",
+      "creator": {
+        "name": "Bubblebsss",
+        "handle": "@bubblearn0",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/75a72660d5affca52d5f0d0d93c37d5b~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=a7d52071&x-expires=1794733200&x-signature=J2URb8fEyM%2FtpYpj2sicbf4EtmM%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@bubblearn0 menyediakan template JSON n8n siap pakai untuk otomatisasi bisnis pemula."
+      },
+      "category": "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+      "stats": {
+        "plays": 13442,
+        "likes": 723,
+        "comments_count": 137,
+        "shares": 100,
+        "saves": 823
+      },
+      "tools_mentioned": [
+        "n8n (Self-hosted)",
+        "Docker",
+        "Ollama",
+        "Gemini API Free Tier",
+        "Webhooks"
+      ],
+      "core_lesson": "Membangun Autonomous AI Agent mandiri 100% gratis di laptop lokal menggunakan n8n dan model lokal/free API tanpa biaya SaaS bulanan.",
+      "community_insights": "Workflow Slide 7 memadukan scraper web otomatis, parser AI, dan integrasi notifikasi Telegram/Sheets secara self-hosted.",
+      "top_comments": [
+        {
+          "id": "7706463919531115282",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1794300967,
+          "user": {
+            "unique_id": "abu.zahran99",
+            "nickname": "أَبُو زَهْرَان"
+          }
+        },
+        {
+          "id": "7706757267617841927",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1794369273,
+          "user": {
+            "unique_id": "mas_tzy13",
+            "nickname": "Mas TZy"
+          }
+        },
+        {
+          "id": "7704548549447467777",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 4,
+          "create_time": 1793855016,
+          "user": {
+            "unique_id": "lelakipenghibur11",
+            "nickname": "lelakipenghibur"
+          }
+        },
+        {
+          "id": "7703006858593108742",
+          "text": "Gratis",
+          "digg_count": 0,
+          "reply_total": 4,
+          "create_time": 1793496104,
+          "user": {
+            "unique_id": "a_handoko83",
+            "nickname": "Agus Handoko"
+          }
+        },
+        {
+          "id": "7706615249252336391",
+          "text": "GRATIS",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794336207,
+          "user": {
+            "unique_id": "marthintok",
+            "nickname": "Marthin Sitompul"
+          }
+        },
+        {
+          "id": "7704360095170495240",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793811281,
+          "user": {
+            "unique_id": "jati_h160893",
+            "nickname": "ghon160893"
+          }
+        },
+        {
+          "id": "7705900657550754567",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1794169822,
+          "user": {
+            "unique_id": "jdubd25",
+            "nickname": "jduub2"
+          }
+        },
+        {
+          "id": "7703583051762352914",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793630209,
+          "user": {
+            "unique_id": "invitzstd",
+            "nickname": "invitzstd"
+          }
+        },
+        {
+          "id": "7704143469136118535",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793760697,
+          "user": {
+            "unique_id": "rifali7",
+            "nickname": "°-°"
+          }
+        },
+        {
+          "id": "7703799749863064338",
+          "text": "gratis",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793680676,
+          "user": {
+            "unique_id": "_fanykim",
+            "nickname": "kim 🍀"
+          }
+        }
+      ],
+      "images": [
+        "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/e304974b468b4bc2a5108a5819c0a942~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=g%2FOisdgEDNl1L53wmFcvINX5G74%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/71da3f69382f494b86a448327d9c1ab2~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=QZYfqXCxX3QgJast95PtgLAO3H4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/8a8d356d48d04ea8a7b277db44ab941d~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=veXDV%2FbYxMPdOUwgXDBUtIcCFxo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/efd4ad82308e48efa38a9404113ccd09~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=56aUG%2FdTgmcQOeaBsxyd5zmNwGE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/c7f7e45050fc4a5fabb77e7c227c3ac1~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=P4cdpJTjuDsX79DpC9oXI9yxJo4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/949dd228f0854bfd9c4750dc767f4399~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=PpoylS5yvcGzWMYNSktNwqxlh6Y%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/193c67f5ebcc4b3f8f31984fec71ce95~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=AZ4DND96%2FUdysNJDlAzH14Vib4o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/ea0be88f4ee741808f57bb22f8f12e87~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=7wRpAQeRaA19%2FmCP0hriirD5Tvk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/2d33315f7a994d39b6e689928bf23de3~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=wAohn1zV9qQmV80p5yZJFSLlcso%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7703359830316158226",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@rafli.dev/photo/7703359830316158226",
+      "title": "Swipe buat lihat 68 tools populer dari Frontend, Backend, Database, DevOps, sampai Mobile App, lengkap dengan logonya biar gampang diingat. Ada Rust dan NuxtJS juga di sini. Ingat, pelajari fundamental dulu, baru pilih tools sesuai tujuanmu, lalu bangun project dan terus belajar. Tools mana yang paling sering kamu pakai? Komen di bawah ya. Save dan follow @rafli.dev untuk konten lainnya. #FullStackDeveloper #WebDevelopment #Frontend #Backend",
+      "creator": {
+        "name": "Rafli Dev | Coding & Tech",
+        "handle": "@rafli.dev",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/a0741e50ac829c5b84ccbf57934f6f85~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=ee63d6cb&x-expires=1794733200&x-signature=nQJ6PryZUAvG7g%2BGUBnYx1a7ic8%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=avatar",
+        "profile_benefit": "@rafli.dev adalah full-stack developer yang konsisten mengedukasi roadmap koding terstruktur."
+      },
+      "category": "Software Engineering, Security & Systems (7 OSI Layers, k6 Load Testing, Backend Scaling)",
+      "stats": {
+        "plays": 7323,
+        "likes": 585,
+        "comments_count": 3,
+        "shares": 37,
+        "saves": 436
+      },
+      "tools_mentioned": [
+        "NuxtJS",
+        "Rust",
+        "Go",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Next.js"
+      ],
+      "core_lesson": "Peta visual 68 tools terpopuler di industri teknologi (Frontend, Backend, DB, DevOps, Mobile).",
+      "community_insights": "Jangan terjebak 'Tool Paralysis'. Pelajari fundamental networking, data structure, dan database index sebelum mengoleksi puluhan framework.",
+      "top_comments": [
+        {
+          "id": "7703406497233994504",
+          "text": "maaf tanya bang, ukuran fundamental net nya sampai mana dan harus memahami bagian²mana saja.",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793589129,
+          "user": {
+            "unique_id": "jeksss87",
+            "nickname": "jeksss"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/0c417caea569448e9c81cb0ecd7e5c30~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=85f07e65&x-expires=1795942800&x-signature=P5nsZ%2BpWal8aTcckpStSYXhuegc%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&biz_tag=tt_photomode&sc=image",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/3d266842fe5742568777f5fa303f5769~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=a43de05c&x-expires=1795942800&x-signature=NUrg8itNTWxIgIpGcxfafIb5HnM%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&biz_tag=tt_photomode&sc=image",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/f9d85d64957a4e67aa713b9c8b3a4e15~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=8ab49c89&x-expires=1795942800&x-signature=2Wdu628Y9q8HQeiVpGhlI7JfZFc%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&biz_tag=tt_photomode&sc=image",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/afaaa1d903ba48b7a3b42343710c2d95~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=391f10db&x-expires=1795942800&x-signature=QdoonwYf%2FfxMXCjg5kYqmMBMcw8%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&biz_tag=tt_photomode&sc=image",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/10885a63cdbf46e5bf2bf4aa7b3839d6~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=a6bc69cb&x-expires=1795942800&x-signature=HuykfP3FGIdcl8MjEjly4NZJNv4%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=image&biz_tag=tt_photomode",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/30d792e41ec248bfb0afe33b56a72fd3~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=f9a78788&x-expires=1795942800&x-signature=1BgD%2FZQwRJlHV6WikxtrT4Z%2FHiU%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&biz_tag=tt_photomode&sc=image",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/e584073a190947eeaa2db9b638edf2b8~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=ceee9c7c&x-expires=1795942800&x-signature=bRvzzPKIe0aVzzODmoqth61mZHE%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&biz_tag=tt_photomode&sc=image",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/ad7cd2ca879c48439d899436a31e48f7~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=757da617&x-expires=1795942800&x-signature=lolFvHoiSsH%2BzBWycAMCrG0Vnc4%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&biz_tag=tt_photomode&sc=image",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/a9eb4da9522f4f1794768497dbfb6878~tplv-photomode-image-v1:q70.jpeg?dr=8793&refresh_token=636d212a&x-expires=1795942800&x-signature=2gs3pBpHG1r5895yR7BCGxJVg7Q%3D&t=5897f7ec&ps=b40d0ec8&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=image&biz_tag=tt_photomode"
+      ]
+    },
+    {
+      "id": "tt_7703533762092567829",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@khifrandevsolution/video/7703533762092567829",
+      "title": "10 aturan vibe coding aman dalam 1 menit 🛡️ Simpan dulu! Lu lolos berapa dari 10? 👇 #vibecoding #cybersecurity #programmer #fyp",
+      "creator": {
+        "name": "Khifrandev | Jasa Web & Mobile",
+        "handle": "@khifrandevsolution",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/2a1c49b504d4f88f43f742933fd79b37~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=9cb1253d&x-expires=1794733200&x-signature=i6aZlhYHTgU8McHQFRDK3rRJ0as%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@khifrandevsolution adalah software house independen (Web & Mobile) yang sering berbagi studi kasus riil proyek klien."
+      },
+      "category": "Software Engineering, Security & Systems (7 OSI Layers, k6 Load Testing, Backend Scaling)",
+      "stats": {
+        "plays": 8946,
+        "likes": 598,
+        "comments_count": 6,
+        "shares": 53,
+        "saves": 498
+      },
+      "tools_mentioned": [
+        "Cybersecurity Checklist",
+        "Env Protection",
+        ".gitignore",
+        "SQL Injection Guard",
+        "Dependency Scanner"
+      ],
+      "core_lesson": "10 Aturan Keamanan Wajib saat Vibe Coding: Jangan simpan key di repo, batasi shell privilege agent, selalu sanitize input AI, dan audit packages npm/pip.",
+      "community_insights": "Vibe coding yang gegabah sering menghasilkan vulnerabilitas injeksi kode atau kebocoran kredensial cloud. Terapkan prinsip least privilege.",
+      "top_comments": [
+        {
+          "id": "7703541664132236040",
+          "text": "tugasnih masih direview guys 😭",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1793620574,
+          "user": {
+            "unique_id": "khifrandevsolution",
+            "nickname": "Khifrandev | Jasa Web & Mobile"
+          }
+        },
+        {
+          "id": "7703537962924049173",
+          "text": "tugasnih apakabar bg",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793619722,
+          "user": {
+            "unique_id": "87fik",
+            "nickname": "fik"
+          }
+        },
+        {
+          "id": "7703534511196652295",
+          "text": "first bang",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793618916,
+          "user": {
+            "unique_id": "ubay_srit",
+            "nickname": "bydka_bae"
+          }
+        },
+        {
+          "id": "7703586166301475605",
+          "text": "jelasin secara mendetail bang tiap² aturannya 🙏",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793630934,
+          "user": {
+            "unique_id": "okeii277",
+            "nickname": "zzzzz"
+          }
+        },
+        {
+          "id": "7703554875892597512",
+          "text": "bang kira bisa gak buat apk di Claude, langsung downlod gitu",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793623648,
+          "user": {
+            "unique_id": "2bmj_muhammadlutf",
+            "nickname": "tuan muda"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7703525145981357332",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@hexalab.tech/video/7703525145981357332",
+      "title": "Unity secara resmi merilis plugin-nya di marketplace Antigravity. Plugin ini memungkinkan pengembang menghubungkan Unity langsung ke platform Antigravity hanya dengan satu klik. Dengan integrasi tersebut, pengguna dapat membangun, mensimulasikan, dan mengelola alur kerja 3D tanpa harus keluar dari Antigravity. Fitur agentic workflows juga langsung terhubung ke pipeline pembuatan game. Unity menekankan pentingnya menghubungkan alat-alat yang sudah biasa digunakan pengembang. Plugin ini didukung resmi oleh Unity dan tidak memerlukan konfigurasi rumit. Langkah ini memperkuat kolaborasi antara Unity dan ekosistem AI Google dalam pengembangan game.",
+      "creator": {
+        "name": "Hexalab Technologies",
+        "handle": "@hexalab.tech",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/7bb457ab905122ec6b1492a43c7195e6~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=884a629c&x-expires=1794733200&x-signature=NEckDeCp3KBI%2FiA596a1f0kjN2M%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@hexalab.tech membagikan rilis berita resmi industri software dan teknologi frontier."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 14958,
+        "likes": 763,
+        "comments_count": 9,
+        "shares": 112,
+        "saves": 368
+      },
+      "tools_mentioned": [
+        "Unity Engine",
+        "Google Antigravity Marketplace",
+        "Agentic Workflows 3D"
+      ],
+      "core_lesson": "Peluncuran resmi Plugin Unity di Marketplace Google Antigravity: menghubungkan alur kerja game 3D, physics simulation, dan agentic AI hanya dalam 1 klik.",
+      "community_insights": "Ekosistem game development kini resmi mengadopsi AI harness native, memudahkan pembuatan asset procedural dan scripting logic.",
+      "top_comments": [
+        {
+          "id": "7703596665814713094",
+          "text": "Roblox studio ada?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793633385,
+          "user": {
+            "unique_id": "abdi.go3",
+            "nickname": "Abdi.go"
+          }
+        },
+        {
+          "id": "7703580844443779858",
+          "text": "ok saatnya kita buat pubg mobile",
+          "digg_count": 3,
+          "reply_total": 3,
+          "create_time": 1793629698,
+          "user": {
+            "unique_id": "iktiarramadani",
+            "nickname": "Dannn"
+          }
+        },
+        {
+          "id": "7703768834054374151",
+          "text": "Sebelum GTA 6 Rilis. GTA 7 udah rilis, unity lagi 🗿",
+          "digg_count": 4,
+          "reply_total": 0,
+          "create_time": 1793673471,
+          "user": {
+            "unique_id": "ramadan2080",
+            "nickname": "Ramadan"
+          }
+        },
+        {
+          "id": "7703607189596848917",
+          "text": "GTA 8 Series hehehe",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793635835,
+          "user": {
+            "unique_id": "mediawana",
+            "nickname": "Mediawana"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7707207277580717330",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@ai.agentz/video/7707207277580717330",
+      "title": "6 website gratis untuk mengubah website menjadi aplikasi Android (.APK)",
+      "creator": {
+        "name": "Rayden",
+        "handle": "@ai.agentz",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/b935be1cfffcc36cdfec03aa60ad851b~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=68f2da90&x-expires=1794733200&x-signature=aRx2vsQPmEW4AobZ3rPMUfaPUAM%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@ai.agentz mengurasi website dan AI utility tersembunyi untuk automasi digital."
+      },
+      "category": "Content Creation, Video & Media AI (Claude Animasi, Watermark Remover, Web-to-APK)",
+      "stats": {
+        "plays": 82219,
+        "likes": 6007,
+        "comments_count": 45,
+        "shares": 885,
+        "saves": 4773
+      },
+      "tools_mentioned": [
+        "PWA Builder",
+        "Capacitor",
+        "Median.co",
+        "WebViewGold",
+        "Appilix"
+      ],
+      "core_lesson": "6 Platform gratis dan metode cepat mengubah website responsif menjadi aplikasi Android (.APK).",
+      "community_insights": "Developer profesional di kolom komentar mengingatkan bahwa converter webview sering ditolak Google Play jika tidak ada fitur native pendukung (offline cache, push notification, camera access).",
+      "top_comments": [
+        {
+          "id": "7707243257441092358",
+          "text": "Lebih asik mukulin Claude buat bikin apps nya",
+          "digg_count": 55,
+          "reply_total": 3,
+          "create_time": 1794482423,
+          "user": {
+            "unique_id": "mybealel",
+            "nickname": "Goth Alel Sinner"
+          }
+        },
+        {
+          "id": "7707276309437121301",
+          "text": "bikin semdiri aja bang.",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1794490211,
+          "user": {
+            "unique_id": "lewandowskibm",
+            "nickname": "manggala"
+          }
+        },
+        {
+          "id": "7707286265191973640",
+          "text": "tinggal ai + codeassist",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794492428,
+          "user": {
+            "unique_id": "mcpack_id",
+            "nickname": "MinePack"
+          }
+        },
+        {
+          "id": "7707243906069447430",
+          "text": "ini cuma bisa html ka bang",
+          "digg_count": 3,
+          "reply_total": 4,
+          "create_time": 1794482589,
+          "user": {
+            "unique_id": "rizallllll74",
+            "nickname": "rizalll"
+          }
+        },
+        {
+          "id": "7707254880536134407",
+          "text": "webview",
+          "digg_count": 3,
+          "reply_total": 0,
+          "create_time": 1794485125,
+          "user": {
+            "unique_id": "kaa_324576",
+            "nickname": "NAMANYA ANDIKA🦕"
+          }
+        },
+        {
+          "id": "7707445127711982356",
+          "text": "sejak ada vscode+antigravity, sekarang nyuruh AI terus untuk bikin APK 😅",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794529451,
+          "user": {
+            "unique_id": "thinkofscience",
+            "nickname": "think of science"
+          }
+        },
+        {
+          "id": "7707266495503532820",
+          "text": "kalo gw pake github actions😋",
+          "digg_count": 6,
+          "reply_total": 0,
+          "create_time": 1794487829,
+          "user": {
+            "unique_id": "dannn_4050",
+            "nickname": "iki.dandi"
+          }
+        },
+        {
+          "id": "7707479564155290375",
+          "text": "klau dari AppScript bisa tdak dijadikan Apk.🙏",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794537443,
+          "user": {
+            "unique_id": "oboyss55",
+            "nickname": "Oboyss55"
+          }
+        },
+        {
+          "id": "7707262446759478068",
+          "text": "wih makasih bg",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794486902,
+          "user": {
+            "unique_id": "rzzqaz",
+            "nickname": "Rzzq"
+          }
+        },
+        {
+          "id": "7707635320623579924",
+          "text": "kalo laravel bisa?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1794573701,
+          "user": {
+            "unique_id": "seevarooo",
+            "nickname": "seevarooo"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7707285473382763797",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@captain.alfi/video/7707285473382763797",
+      "title": "Gue tantang lo: habis nonton ini, lo bisa sebutin 7 OSI Layer + serangannya tanpa nyontek? 🫵 #cybersecurity #osilayer #networking #hacker ",
+      "creator": {
+        "name": "Captain Alfi",
+        "handle": "@captain.alfi",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/ea477cfd9fde305906961b46a79e0b8a~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=a24274f8&x-expires=1794733200&x-signature=9g4FOuYQFP5Mxr%2FMdb0z%2BsLwxmg%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@captain.alfi adalah praktisi cybersecurity dan networking yang menjelaskan konsep rumit dengan analogi taktis."
+      },
+      "category": "Software Engineering, Security & Systems (7 OSI Layers, k6 Load Testing, Backend Scaling)",
+      "stats": {
+        "plays": 19248,
+        "likes": 2198,
+        "comments_count": 18,
+        "shares": 135,
+        "saves": 1181
+      },
+      "tools_mentioned": [
+        "OSI 7 Layers",
+        "Wireshark",
+        "Network Security",
+        "MitM / ARP Spoofing"
+      ],
+      "core_lesson": "Pemetaan mendalam 7 Lapisan OSI beserta vektor serangan cyber spesifik di tiap lapisannya (dari Physical Layer hingga Application Layer).",
+      "community_insights": "Rangkuman lengkap netizen (@pecinta wanita): L7 Injection, L6 SSL Strip, L5 Hijacking, L4 SYN Flood, L3 IP Spoof, L2 ARP Poisoning. Penting untuk mahasiswa IT dan cybersecurity enthusiast.",
+      "top_comments": [
+        {
+          "id": "7707471037680583445",
+          "text": "1. application layer\n(web & aplikasi)\nserangan yang sering terjadi : injection attack\n2. presentation layer\n( enkripsi )\n3. session layer\n( ngatur sesi login )\nsession hijacking\n4. transport layer\n( TCP & UDP )\nsyn flood & DDOS\n5. network layer\n( IP & routing )\nip spoofing\n6. data link layer ( mac address )\narp spoofing yg dimana penyerang mengaku menjadi perangkat\n7. physical layer",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1794535471,
+          "user": {
+            "unique_id": "pecintawanita002",
+            "nickname": "pecinta wanita"
+          }
+        },
+        {
+          "id": "7707504254361420564",
+          "text": "solusinya gimana kak untuk mengatasinya kak",
+          "digg_count": 7,
+          "reply_total": 1,
+          "create_time": 1794543196,
+          "user": {
+            "unique_id": "makeupbyamiradaa",
+            "nickname": "makeupbyamirada || SEMARANG"
+          }
+        },
+        {
+          "id": "7707520040664482581",
+          "text": "mitigasi tiap layer gimana tu bg?",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1794546868,
+          "user": {
+            "unique_id": "abcdefghj149",
+            "nickname": "Danzinger"
+          }
+        },
+        {
+          "id": "7707414972813148948",
+          "text": "keren bgt video nya bg, kalau lims ama pegasus dia main di layer mana bg?",
+          "digg_count": 4,
+          "reply_total": 1,
+          "create_time": 1794522639,
+          "user": {
+            "unique_id": "nay_5426",
+            "nickname": "漂亮"
+          }
+        },
+        {
+          "id": "7707441972206600978",
+          "text": "saya kadang notepad lupa disave, takut nii🥺",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1794528696,
+          "user": {
+            "unique_id": "muiviex",
+            "nickname": "Muivie"
+          }
+        },
+        {
+          "id": "7707520121589662472",
+          "text": "Solusi utk masing2 layer?\nspill dong",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1794547049,
+          "user": {
+            "unique_id": "oje_bro",
+            "nickname": "Oje Bro"
+          }
+        },
+        {
+          "id": "7707316771711582977",
+          "text": "Wiihh baru kemaren kita bahas capt, langsung dibuat videonya 🔥",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1794499534,
+          "user": {
+            "unique_id": "night.owl451",
+            "nickname": "Night Owl"
+          }
+        },
+        {
+          "id": "7707603379628180231",
+          "text": "layer user; usernya dibuat panik, tidak fokus sehingga bisa mengikutinya pentunjuk si penipu untuk serahkan data privasi.",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1794566269,
+          "user": {
+            "unique_id": "almori.id",
+            "nickname": "Almori Id"
+          }
+        },
+        {
+          "id": "7707615914220978965",
+          "text": "L8 banv[LOL Besar]",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794569188,
+          "user": {
+            "unique_id": "anonim666770",
+            "nickname": "anonim666770"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7705998629995236628",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@contentcreator.co.id/video/7705998629995236628",
+      "title": "LAPTOP OFFLINE, AI AGENT TETAP BEKERJA! Google Antigravity menghadirkan Remote Agents, fitur yang memungkinkan AI menjalankan tugas coding dari jarak jauh melalui cloud, tanpa harus terus berada di depan komputer. Cara baru bekerja dengan AI yang lebih fleksibel dan efisien! Ikuti @contentcreator.co.id untuk insight teknologi dan AI. #GoogleAntigravity #AIAgent #ArtificialIntelligence",
+      "creator": {
+        "name": "Content Creator Studio",
+        "handle": "@contentcreator.co.id",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/3593b3448ea36b380ecccd3ac823927c~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=d994efa0&x-expires=1794733200&x-signature=rh1dps6KHvt5PPXsv52ruy3TWJM%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@contentcreator.co.id mengulas update ekosistem Google AI dan produktivitas developer."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 21254,
+        "likes": 1257,
+        "comments_count": 28,
+        "shares": 167,
+        "saves": 522
+      },
+      "tools_mentioned": [
+        "Google Antigravity Remote Agents",
+        "Cloud Coding Tasks",
+        "Background Daemons"
+      ],
+      "core_lesson": "Fitur Remote Agents Antigravity: Mendelegasikan tugas koding berat ke cloud, laptop bisa dimatikan/offline dan agent terus bekerja di background.",
+      "community_insights": "Solusi terbaik menggantikan sewa VPS 24/7 dan memungkinkan pengawasan proyek melalui perangkat mobile.",
+      "top_comments": [
+        {
+          "id": "7706203241529295623",
+          "text": "jujur sekarang kebanyakan aplikasi dibuat AI tapi banyak cuma jadi sampah tidak ada real use case bermanfaat hanya ide copy paste",
+          "digg_count": 16,
+          "reply_total": 5,
+          "create_time": 1794240276,
+          "user": {
+            "unique_id": "kerjascrolltikok",
+            "nickname": "Obat Pereda Tolol"
+          }
+        },
+        {
+          "id": "7706327947187979060",
+          "text": "ini yang versi IDE? apa gimana?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794269336,
+          "user": {
+            "unique_id": "nenox.id",
+            "nickname": "nenoxgarage"
+          }
+        },
+        {
+          "id": "7706233372637152020",
+          "text": "wihhh, berarti bisa jalan 24/7 tanpa vps lagi ya ini?",
+          "digg_count": 1,
+          "reply_total": 2,
+          "create_time": 1794247295,
+          "user": {
+            "unique_id": "_aziizz__",
+            "nickname": "."
+          }
+        },
+        {
+          "id": "7706326561104659220",
+          "text": "finally",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1794269007,
+          "user": {
+            "unique_id": "toxician",
+            "nickname": "Toxician"
+          }
+        },
+        {
+          "id": "7706535567790342932",
+          "text": "BARU AJA MAU KOMEN \"BUTUHNYA YANG BISA DIKONTROL LEWAT HP, TAPI BISA OTAK ATIK PROJECT DI LAPTOP\" UDH DIJAWAB SENDIRI JIRLAH😹😭",
+          "digg_count": 2,
+          "reply_total": 0,
+          "create_time": 1794317647,
+          "user": {
+            "unique_id": "cumaboybiasa",
+            "nickname": "Hai Brar"
+          }
+        },
+        {
+          "id": "7706358854305448712",
+          "text": "udh dari lama padahal fiturnya🗿 tinggal /rc",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794276520,
+          "user": {
+            "unique_id": "ishtar.0",
+            "nickname": "Kayla"
+          }
+        },
+        {
+          "id": "7706499155942146836",
+          "text": "Baru mau buat 😂",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794309173,
+          "user": {
+            "unique_id": "cukopempek025",
+            "nickname": "CUKO PEMPEK"
+          }
+        },
+        {
+          "id": "7706297682461393672",
+          "text": "ga butuh, butuhnya tanpa limit🗿",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794262268,
+          "user": {
+            "unique_id": "xecond83083",
+            "nickname": "No Name"
+          }
+        },
+        {
+          "id": "7706524601654510356",
+          "text": "ssh ke server, panggil agy, selesai 🗿🗿",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1794315097,
+          "user": {
+            "unique_id": "recodeproject",
+            "nickname": "Recode Project"
+          }
+        },
+        {
+          "id": "7706750024646820628",
+          "text": "blm rilis?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794367585,
+          "user": {
+            "unique_id": "rofid_swd",
+            "nickname": "RFD"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7707251802957188372",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@khifrandevsolution/video/7707251802957188372",
+      "title": "Anak kecil di China cepet bisa coding bukan karena bakat, tapi metodenya 🧱🧩🎮 Ini 5 yang bisa lu tiru. Simpan dulu 🔖 Lu belajar pakai metode apa? 👇 #belajarcoding #scratch #python #programmer #fyp",
+      "creator": {
+        "name": "Khifrandev | Jasa Web & Mobile",
+        "handle": "@khifrandevsolution",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/2a1c49b504d4f88f43f742933fd79b37~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=9cb1253d&x-expires=1794733200&x-signature=i6aZlhYHTgU8McHQFRDK3rRJ0as%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@khifrandevsolution mengedukasi cara pandang belajar koding yang humanis dan efektif."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 18502,
+        "likes": 2279,
+        "comments_count": 18,
+        "shares": 155,
+        "saves": 1257
+      },
+      "tools_mentioned": [
+        "Scratch",
+        "Blockly",
+        "Python",
+        "Algorithmic Thinking"
+      ],
+      "core_lesson": "5 Rahasia kurikulum coding anak di China: Pendekatan visual logika mendahului sintaks kaku, gamifikasi algoritma, dan pemecahan masalah modular.",
+      "community_insights": "Curhat mahasiswa teknik informatika: langsung diajarkan syntax C++ tanpa pemahaman logic thinking membuat banyak mahasiswa drop out secara mental.",
+      "top_comments": [
+        {
+          "id": "7707486668333155092",
+          "text": "aku masuk informatika samsek belum kenal sama nih ilmu, bahasnya langsung c++. Pengen mati",
+          "digg_count": 14,
+          "reply_total": 2,
+          "create_time": 1794539101,
+          "user": {
+            "unique_id": "twiky_art",
+            "nickname": "❤"
+          }
+        },
+        {
+          "id": "7707568803274949396",
+          "text": "strac apa sih ?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1794558224,
+          "user": {
+            "unique_id": "elzein_07",
+            "nickname": "ARKANZA ZAYYAN GHOZIYULLAH"
+          }
+        },
+        {
+          "id": "7707496211558597384",
+          "text": "kalau metode pembelajaran nya lewat ai + dokumentasi itu bagaimana🗿",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794541325,
+          "user": {
+            "unique_id": "xyzonn141",
+            "nickname": "Zorta93"
+          }
+        },
+        {
+          "id": "7707288730508395265",
+          "text": "mata pelajaran aku ada coding",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794493230,
+          "user": {
+            "unique_id": "aulia_sr25",
+            "nickname": "Aulia Salsabila Rahmi"
+          }
+        },
+        {
+          "id": "7707864777650225921",
+          "text": "Gw Bru belajar udah dikasih C++ sama si buat belajar Minicontroler ESP32 pdhal ada python, akhirnya gw bingung pake python tlong dg",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794627142,
+          "user": {
+            "unique_id": "fathir8914",
+            "nickname": "fathir"
+          }
+        },
+        {
+          "id": "7707832574177952519",
+          "text": "belajar coding Dari AI worth it gak?😅",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794619651,
+          "user": {
+            "unique_id": "maafkansaya580",
+            "nickname": "Arci Linux"
+          }
+        },
+        {
+          "id": "7707332129814512392",
+          "text": "gua belajar coding dari studio Roblox [Menangis][Menangis]",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794503113,
+          "user": {
+            "unique_id": "vks_juki",
+            "nickname": "JUKI"
+          }
+        },
+        {
+          "id": "7707251727138161429",
+          "text": "bang,bikin app tentang Tka sd dong,butuh banget yg lengkap dengan materi,rangkuman,latihan soal atau dll,butuh banget bang buat belajar soalnya tinggal 5 bulan lagi udah tka",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794484524,
+          "user": {
+            "unique_id": "muh.fakhri8",
+            "nickname": "tiktokmuh.fakhri8"
+          }
+        },
+        {
+          "id": "7707614751316787974",
+          "text": "Masih stuck block code create app 7th[Menangis], karena alasannya: menghasilkan uang [LOL Besar] Mayan start bisnis dari kelas 7smp-2sma tipis\"",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794568915,
+          "user": {
+            "unique_id": "gokilpromax",
+            "nickname": "─𝘽𝙖𝙠𝙬𝙖𝙣"
+          }
+        },
+        {
+          "id": "7707659491055977236",
+          "text": "ai + pyton",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794579472,
+          "user": {
+            "unique_id": "rakzz613",
+            "nickname": "-15Rakzz✷"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7704501163168779540",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@zackyarta/video/7704501163168779540",
+      "title": "Bedah ui-ux-pro-max Satu baris command bikin AI ngerti spasi, hierarki font, sama kontras warna. Commandnya panjang, jadi gue simpen di sini. `npm install -g ui-ux-pro-max-cli` 1️⃣ Claude Code `uipro init --ai claude` 2️⃣ Cursor `uipro init --ai cursor` 3️⃣ OpenAI Codex `uipro init --ai codex` 4️⃣ GitHub Copilot `uipro init --ai copilot` 5️⃣ Google Antigravity `uipro init --ai antigravity` 📦 GITHUB REPOSITORY: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill  #uiux #webdev #claudecode #vibecoding #claude ",
+      "creator": {
+        "name": "zackyarta",
+        "handle": "@zackyarta",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/d92425fb08e812d080ec4887aba77063~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=b9bfd7c5&x-expires=1794733200&x-signature=ZTbIby7OYuBiaWqAbcELhSd1agk%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@zackyarta adalah frontend specialist yang aktif merilis prompt framework dan CLI tools untuk komunitas vibe coding."
+      },
+      "category": "UI/UX Design, Microinteractions & Frontend Magic (ui-ux-pro-max, FigCraft)",
+      "stats": {
+        "plays": 21759,
+        "likes": 1898,
+        "comments_count": 23,
+        "shares": 119,
+        "saves": 1236
+      },
+      "tools_mentioned": [
+        "ui-ux-pro-max-cli",
+        "Claude Code",
+        "Google Antigravity",
+        "Cursor",
+        "Codex"
+      ],
+      "core_lesson": "Tool revolusioner `ui-ux-pro-max-cli`: `npm install -g ui-ux-pro-max-cli` lalu `uipro init --ai antigravity` untuk menyuntikkan standar desain UI/UX kelas dunia ke agen AI.",
+      "community_insights": "Repo GitHub: `https://github.com/nextlevelbuilder/ui-ux-pro-max-skill`. Mengatasi masalah desain web AI yang monoton, kaku, dan minim hierarki estetika.",
+      "top_comments": [
+        {
+          "id": "7704501452852675349",
+          "text": "`npm install -g ui-ux-pro-max-cli`\n1️⃣ Claude Code\n`uipro init --ai claude`\n2️⃣ Cursor\n`uipro init --ai cursor`\n3️⃣ OpenAI Codex\n`uipro init --ai codex`\n4️⃣ GitHub Copilot\n`uipro init --ai copilot`\n5️⃣ Google Antigravity\n`uipro init --ai antigravity`\n📦 GITHUB REPOSITORY:\nhttps://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+          "digg_count": 11,
+          "reply_total": 5,
+          "create_time": 1793844048,
+          "user": {
+            "unique_id": "zackyarta",
+            "nickname": "zackyarta"
+          }
+        },
+        {
+          "id": "7707780565856830226",
+          "text": "support openrouter Compatible model claude fable 5 ga?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794607535,
+          "user": {
+            "unique_id": "ditthtzy",
+            "nickname": "ḋ | Software Engineer"
+          }
+        },
+        {
+          "id": "7704675742991483654",
+          "text": "hermes gimana",
+          "digg_count": 1,
+          "reply_total": 3,
+          "create_time": 1793884645,
+          "user": {
+            "unique_id": "kem1576",
+            "nickname": "Kem "
+          }
+        },
+        {
+          "id": "7704652958385914644",
+          "text": "di gemini belum bisa ya?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793879318,
+          "user": {
+            "unique_id": "dubiidubidammm",
+            "nickname": "syududdu"
+          }
+        },
+        {
+          "id": "7707053882987610898",
+          "text": "makasih ka🗿",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794438338,
+          "user": {
+            "unique_id": "itscloudyal",
+            "nickname": "itscloudyal"
+          }
+        },
+        {
+          "id": "7705249952298451733",
+          "text": "kalau ui udah jadi bisa diperbaiki ulang pakai skill ini?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794018350,
+          "user": {
+            "unique_id": "r.vanzz",
+            "nickname": "𝟕𝟎𝟗 Shizuo."
+          }
+        },
+        {
+          "id": "7707757924264854324",
+          "text": "kalau Gemini gimana bang?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794602255,
+          "user": {
+            "unique_id": "nthaannn_",
+            "nickname": "￶￶"
+          }
+        },
+        {
+          "id": "7705082179970319112",
+          "text": "klau di claude ka?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793979256,
+          "user": {
+            "unique_id": "liqqquid",
+            "nickname": "QR"
+          }
+        },
+        {
+          "id": "7705605354831397650",
+          "text": "bikin ai agent sendiri dilaptop tuh gratis gk sih? diluar dari chatgpt prem/claude pro",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794101086,
+          "user": {
+            "unique_id": "paliphi",
+            "nickname": "Himmel"
+          }
+        },
+        {
+          "id": "7706823792077226773",
+          "text": "kalo pake hp (termux) gitu bikin lag kagak?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794384916,
+          "user": {
+            "unique_id": "axoooo99",
+            "nickname": "AXOOO"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7703163244755569940",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@kyyaiharvest/video/7703163244755569940",
+      "title": "Vibecoder auto fullsenyum si #ai #coding #vibecoding ",
+      "creator": {
+        "name": "Kyy | AI Harvester",
+        "handle": "@kyyaiharvest",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/5c59a54f48f86a96eea3fcacce86c382~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=20c3ac3b&x-expires=1794733200&x-signature=LijpTe2QQayCMFoZ7Agebrx%2F5FI%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@kyyaiharvest berbagi informasi seputar agregator API dan free tier model AI."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 8744,
+        "likes": 846,
+        "comments_count": 20,
+        "shares": 85,
+        "saves": 593
+      },
+      "tools_mentioned": [
+        "Free AI Tiers",
+        "API Hubs",
+        "Community Credits"
+      ],
+      "core_lesson": "Trik mendapatkan akses model frontier murah/gratis untuk eksperimen vibe coding.",
+      "community_insights": "Pentingnya memanfaatkan free credit platform sebelum berkomitmen berlangganan bulanan.",
+      "top_comments": [
+        {
+          "id": "7703165425534124807",
+          "text": "nak linkkkkk",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793532974,
+          "user": {
+            "unique_id": "nixxeltzyy_",
+            "nickname": "NixxelTzy"
+          }
+        },
+        {
+          "id": "7703174043147715349",
+          "text": "kalau kata gw, kalian cepet daftar (in this economy)🥺",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793534986,
+          "user": {
+            "unique_id": "kyyaiharvest",
+            "nickname": "Kyy | AI Harvester"
+          }
+        },
+        {
+          "id": "7704087804527330100",
+          "text": "maneee bionyaa",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793747756,
+          "user": {
+            "unique_id": "the_vilian26",
+            "nickname": "Widdcaly"
+          }
+        },
+        {
+          "id": "7703264538741621525",
+          "text": "real ngga bng",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793556058,
+          "user": {
+            "unique_id": "akuadalahaku854",
+            "nickname": "Mazh"
+          }
+        },
+        {
+          "id": "7703936347719107336",
+          "text": "wadul",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793712467,
+          "user": {
+            "unique_id": "langgananku.com",
+            "nickname": "Langgananku"
+          }
+        },
+        {
+          "id": "7703521496198628103",
+          "text": "mau nanya mas ini ada tutorial lengkap nya?",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1793615877,
+          "user": {
+            "unique_id": "yasudah000",
+            "nickname": "gpp kok"
+          }
+        },
+        {
+          "id": "7703246314423190290",
+          "text": "anjir lah udah daftar , udah apply , eh ada interview sama ai lagi",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793551809,
+          "user": {
+            "unique_id": "br4n._",
+            "nickname": "Gibⲅ🅰️ⲛ."
+          }
+        },
+        {
+          "id": "7705309797286232838",
+          "text": "link nya bang atau dm",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794032262,
+          "user": {
+            "unique_id": "tiktokmobaman",
+            "nickname": "ZEROONE"
+          }
+        },
+        {
+          "id": "7703248766131782420",
+          "text": "scam",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1793552380,
+          "user": {
+            "unique_id": "clairo_claire",
+            "nickname": "ClairoCotrill"
+          }
+        },
+        {
+          "id": "7703183825475568404",
+          "text": "Follow akun ku dong ges, nanti ku buat tutorial cara daftarnyaa",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793537256,
+          "user": {
+            "unique_id": "kyyaiharvest",
+            "nickname": "Kyy | AI Harvester"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7702751140915531028",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@khifrandevsolution/video/7702751140915531028",
+      "title": "Website lu kuat diakses berapa orang? 😰 Tes dulu pakai k6 sebelum viral! Punya lu kuat berapa? 👇 #k6 #webdeveloper #programmer #fypシ゚viral",
+      "creator": {
+        "name": "Khifrandev | Jasa Web & Mobile",
+        "handle": "@khifrandevsolution",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/2a1c49b504d4f88f43f742933fd79b37~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=e1199a40&x-expires=1794733200&x-signature=ITqV%2Bh9%2B8zaeVGTXFs2%2BY%2F18os8%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@khifrandevsolution memberikan studi kasus pengujian performa sistem untuk pemilik web."
+      },
+      "category": "Software Engineering, Security & Systems (7 OSI Layers, k6 Load Testing, Backend Scaling)",
+      "stats": {
+        "plays": 52687,
+        "likes": 3624,
+        "comments_count": 25,
+        "shares": 345,
+        "saves": 2965
+      },
+      "tools_mentioned": [
+        "k6 (Grafana)",
+        "Load Testing",
+        "Stress Testing",
+        "Virtual Users (VUs)"
+      ],
+      "core_lesson": "Cara menguji kapasitas website menghadapi lonjakan trafik menggunakan script k6 sebelum aplikasi viral atau rilis massal.",
+      "community_insights": "Eksperimen di localhost vs server produksi: k6 mampu mendeteksi bottleneck database query, memory leaks, dan concurrency deadlock lebih dini.",
+      "top_comments": [
+        {
+          "id": "7702818706762400533",
+          "text": "otw 100000000000 req 1m",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793452251,
+          "user": {
+            "unique_id": "endless_community",
+            "nickname": "RazzorX--"
+          }
+        },
+        {
+          "id": "7702780501917483828",
+          "text": "ini kayak ddos GK sih (cmiiw)",
+          "digg_count": 6,
+          "reply_total": 7,
+          "create_time": 1793443359,
+          "user": {
+            "unique_id": "guzzramlli",
+            "nickname": "なoph-𝗸𝗮𝘇𝗲𝗸𝗮𝗴𝗲か"
+          }
+        },
+        {
+          "id": "7704990395989705480",
+          "text": "mana sc nya mas",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793957994,
+          "user": {
+            "unique_id": "kriszzyy_",
+            "nickname": "⃟"
+          }
+        },
+        {
+          "id": "7704474356073104180",
+          "text": "makenya gimana?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793837760,
+          "user": {
+            "unique_id": "ikbur77",
+            "nickname": "IB"
+          }
+        },
+        {
+          "id": "7702802827957486354",
+          "text": "coba di localhost 🤣",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793448549,
+          "user": {
+            "unique_id": "rolinkstone",
+            "nickname": "rolinkstone"
+          }
+        },
+        {
+          "id": "7702960156204434177",
+          "text": "tes d server testing itu gmn mksdnya? sm kayak pas d develop? localhost?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793485199,
+          "user": {
+            "unique_id": "madude3307",
+            "nickname": "Zagmura"
+          }
+        },
+        {
+          "id": "7702759486801642247",
+          "text": "bg aplikasi lu semua kenapa di play store kagak ada, apakah karena hp gua kah bg",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793438460,
+          "user": {
+            "unique_id": "always_epul",
+            "nickname": "Epul"
+          }
+        },
+        {
+          "id": "7704920685295305493",
+          "text": "mantap mas 🔥",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793941671,
+          "user": {
+            "unique_id": "sibuktapiadaa",
+            "nickname": "Hobi Bermimpi | Belajar Coding"
+          }
+        },
+        {
+          "id": "7703014543557116690",
+          "text": "10 orang saja sudah hebat",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793497856,
+          "user": {
+            "unique_id": "qategori",
+            "nickname": "Mochi 🐱"
+          }
+        },
+        {
+          "id": "7702769203140428596",
+          "text": "buat aplikasi mobile ada gak bang?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793440719,
+          "user": {
+            "unique_id": "awanxz1",
+            "nickname": "Wann"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7703965207776775444",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@codecuy/video/7703965207776775444",
+      "title": "Bisa kok antigravity desain satset #uiux ",
+      "creator": {
+        "name": "Sugiannoor | Frontend Dev",
+        "handle": "@codecuy",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/9494415328537f68c4cdf0e0ab0292b6~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=8ba0aa34&x-expires=1794733200&x-signature=OIyHkL%2F2QA%2FNxpFbAVXL7%2FfoGOY%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@codecuy aktif membagikan tips frontend development modern dan integrasi UI design."
+      },
+      "category": "UI/UX Design, Microinteractions & Frontend Magic (ui-ux-pro-max, FigCraft)",
+      "stats": {
+        "plays": 117363,
+        "likes": 7666,
+        "comments_count": 48,
+        "shares": 648,
+        "saves": 4988
+      },
+      "tools_mentioned": [
+        "Google Antigravity",
+        "FigCraft MCP",
+        "Live Canvas UI"
+      ],
+      "core_lesson": "Desain antarmuka satset di Google Antigravity langsung terintegrasi dengan MCP FigCraft secara visual.",
+      "community_insights": "Komunitas menyoroti trik reload kanvas bila terjadi lag sinkronisasi file UI, serta pergeseran menuju visual canvas prompting.",
+      "top_comments": [
+        {
+          "id": "7704097912577753863",
+          "text": "skill figcraft nya download dimana bang?",
+          "digg_count": 26,
+          "reply_total": 4,
+          "create_time": 1793750094,
+          "user": {
+            "unique_id": "galihanggara_",
+            "nickname": "Anggara|アンガラ"
+          }
+        },
+        {
+          "id": "7704081836141478663",
+          "text": "itu mcp figcraft ke antigravity? kok bs dia disuruh lgsg live design di figcraft",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793746347,
+          "user": {
+            "unique_id": "imamriyansah",
+            "nickname": "imam"
+          }
+        },
+        {
+          "id": "7704089616131326727",
+          "text": "limit hariannya udh ga ada kah dari antigravity, di aku cmn limit mingguan",
+          "digg_count": 3,
+          "reply_total": 9,
+          "create_time": 1793748168,
+          "user": {
+            "unique_id": "madude3307",
+            "nickname": "Zagmura"
+          }
+        },
+        {
+          "id": "7704004364592497409",
+          "text": "skill nya dimana mas",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793728312,
+          "user": {
+            "unique_id": "sunxflower13_",
+            "nickname": "sunxflower"
+          }
+        },
+        {
+          "id": "7704076965414585096",
+          "text": "bang kok gw nyoba gabisa gerak ya figcraftnya ? harus di reopen filenya",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793745228,
+          "user": {
+            "unique_id": "rninmstr",
+            "nickname": "rx11"
+          }
+        },
+        {
+          "id": "7704068742443287303",
+          "text": "itu nama desainnya apa yaak",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793743305,
+          "user": {
+            "unique_id": "ooooohayth",
+            "nickname": "HTH"
+          }
+        },
+        {
+          "id": "7704089448594719506",
+          "text": "gass tutor konekinnya bang",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793748137,
+          "user": {
+            "unique_id": "gerat.std",
+            "nickname": "Angga | Designer"
+          }
+        },
+        {
+          "id": "7704668093705323285",
+          "text": "itu harus antigravity IDE kah bang? atau bisa yang biasa yang antigraivity doang?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793882846,
+          "user": {
+            "unique_id": "deniartra",
+            "nickname": "G"
+          }
+        },
+        {
+          "id": "7705114708806386450",
+          "text": "berbayar mas?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793986830,
+          "user": {
+            "unique_id": "zoland_7",
+            "nickname": "zoland_d"
+          }
+        },
+        {
+          "id": "7704076846421394194",
+          "text": "fas skills nya dapat atau bikin sendiri mas?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793745190,
+          "user": {
+            "unique_id": "anangsyahamirulha",
+            "nickname": "Ranger merah"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7701658068236373266",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@garryaudie/video/7701658068236373266",
+      "title": "Find Skills terhubung ke library berisi lebih dari satu juta Claude Skills. Lu tinggal jelasin apa yang lagi dikerjain, lalu dia bisa milihin dan memasang skill yang tepat. Tapi sebelum install skill apa pun, cek dulu keamanannya pake ChatGPT dan Claude. https://www.skills.sh/vercel-labs/skills/find-skills",
+      "creator": {
+        "name": "Garry Audie",
+        "handle": "@garryaudie",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/99cb5b27313e04ed150b40b86f6a87ed~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=c6506ab1&x-expires=1794733200&x-signature=TLOBZZiI6Tw3vUyhWKlGubjD0pg%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@garryaudie mengedukasi ekosistem AI skills dan automated agent configuration."
+      },
+      "category": "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+      "stats": {
+        "plays": 104272,
+        "likes": 9094,
+        "comments_count": 35,
+        "shares": 937,
+        "saves": 7897
+      },
+      "tools_mentioned": [
+        "Find Skills (Vercel Labs)",
+        "skills.sh",
+        "Claude Code",
+        "Security Audit"
+      ],
+      "core_lesson": "Memasang skill `find-skills` dari Vercel Labs (`https://www.skills.sh/vercel-labs/skills/find-skills`) untuk mencari dan memasang 1 juta+ skill secara otomatis sesuai kebutuhan proyek.",
+      "community_insights": "Peringatan krusial (@leonbaobao, 11 likes): Waspadai supply-chain attack! Beberapa skill publik yang tidak terverifikasi bisa disisipi skrip eksfiltrasi token/malware. Selalu review kode sebelum instalasi.",
+      "top_comments": [
+        {
+          "id": "7706379447070884628",
+          "text": "disclaimer aja, hati-hati dalam menginstal suatu skill, karena beberapa ada yg disisipi malware",
+          "digg_count": 11,
+          "reply_total": 4,
+          "create_time": 1794281308,
+          "user": {
+            "unique_id": "leonbaobao",
+            "nickname": "leonbaobao"
+          }
+        },
+        {
+          "id": "7701711212031460102",
+          "text": "di aku malah gapernah kepake ini skills",
+          "digg_count": 4,
+          "reply_total": 8,
+          "create_time": 1793194401,
+          "user": {
+            "unique_id": "wahyudizulhaidar",
+            "nickname": "wahyudiZulhaidar"
+          }
+        },
+        {
+          "id": "7703967477939929864",
+          "text": "install find-skills",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793719717,
+          "user": {
+            "unique_id": "den.azkal8",
+            "nickname": "Den AzkaL"
+          }
+        },
+        {
+          "id": "7701700414991155989",
+          "text": "Bisa install ke hermes?",
+          "digg_count": 4,
+          "reply_total": 2,
+          "create_time": 1793191876,
+          "user": {
+            "unique_id": "renzo11394",
+            "nickname": "renzo11"
+          }
+        },
+        {
+          "id": "7705688321621017362",
+          "text": "keren lu bang",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794120391,
+          "user": {
+            "unique_id": "vibes_todays",
+            "nickname": "vibes to day"
+          }
+        },
+        {
+          "id": "7701709238929720070",
+          "text": "Terima kasih",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793193926,
+          "user": {
+            "unique_id": "zakyalhamzah",
+            "nickname": "ZakyAlHamzah"
+          }
+        },
+        {
+          "id": "7704946561680278279",
+          "text": "tutor bg",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793947681,
+          "user": {
+            "unique_id": "evolusi_diri.evolvera",
+            "nickname": "evolvera"
+          }
+        },
+        {
+          "id": "7701658656350061313",
+          "text": "yang bener bang",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793182155,
+          "user": {
+            "unique_id": "drazyx7",
+            "nickname": "𝘙𝘺𝘯 𝘕𝘰𝘵 𝘍𝘰𝘶𝘯𝘥"
+          }
+        },
+        {
+          "id": "7701686468930224903",
+          "text": "tutor",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793188629,
+          "user": {
+            "unique_id": "danijulkarnain",
+            "nickname": "Dani Julkarnain"
+          }
+        },
+        {
+          "id": "7705743105400554246",
+          "text": "pc atau hp bang",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794133145,
+          "user": {
+            "unique_id": "ima.thalib",
+            "nickname": "ima thalib"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7703592558634470664",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@lunabiner/video/7703592558634470664",
+      "title": "Eps 1: Dari satu laptop sampai siap dipakai jutaan orang. Server, load balancer, database, cache, sampai CDN, ini urutan masalah yang bakal kamu temui waktu bikin aplikasi. Habis ini mau bikin apa? Tulis di komentar 👇 #belajarcoding #programming #teknologi #backend #lunabiner",
+      "creator": {
+        "name": "Lunabiner | AI & Automation",
+        "handle": "@lunabiner",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/248acec4c0ab48c324625e11c3a39c6b~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=02517646&x-expires=1794733200&x-signature=KTyQDfRZIFyJXcHoMTo4d05dQEQ%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@lunabiner spesialis otomasi arsitektur cloud dan backend engineering."
+      },
+      "category": "Software Engineering, Security & Systems (7 OSI Layers, k6 Load Testing, Backend Scaling)",
+      "stats": {
+        "plays": 63909,
+        "likes": 5617,
+        "comments_count": 39,
+        "shares": 318,
+        "saves": 2778
+      },
+      "tools_mentioned": [
+        "Load Balancer",
+        "Redis Cache",
+        "Database Replication",
+        "CDN",
+        "Microservices"
+      ],
+      "core_lesson": "Evolusi arsitektur backend dari 1 laptop hingga melayani jutaan pengguna secara bertahap (Single Server -> DB Separation -> Caching -> CDN -> Clustering).",
+      "community_insights": "Audiens (@alffia, 69 likes): Penjelasan visual bertahap jauh lebih mudah dipahami daripada teori kampus karena langsung menjawab akar masalah performa.",
+      "top_comments": [
+        {
+          "id": "7704556235987976980",
+          "text": "ehh tiba2 singapura stop jaringannya😭",
+          "digg_count": 3,
+          "reply_total": 4,
+          "create_time": 1793856820,
+          "user": {
+            "unique_id": "bestla.store",
+            "nickname": "BESTLA"
+          }
+        },
+        {
+          "id": "7703980335901573908",
+          "text": "Kenapa dulu dosen gua gak jelasin nya gini yaaa kan jadi ngerti",
+          "digg_count": 69,
+          "reply_total": 2,
+          "create_time": 1793722708,
+          "user": {
+            "unique_id": "oktafiany18",
+            "nickname": "alffia"
+          }
+        },
+        {
+          "id": "7706312781007979265",
+          "text": "kadang pernh heran, server Tiktok kok mampu menyimpan video jutaan..? 😁",
+          "digg_count": 4,
+          "reply_total": 1,
+          "create_time": 1794265788,
+          "user": {
+            "unique_id": "pekonpedia",
+            "nickname": "pekonpedia"
+          }
+        },
+        {
+          "id": "7704347999560680198",
+          "text": "Butuh Biaya Gk Kecil Ya dik adik",
+          "digg_count": 4,
+          "reply_total": 0,
+          "create_time": 1793808331,
+          "user": {
+            "unique_id": "kabay.id",
+            "nickname": "￴ ￴ ￴ ￴ ￴ ￴ ￴ ￴"
+          }
+        },
+        {
+          "id": "7706779337656156936",
+          "text": "kek mana cara bikin server nya we",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1794374414,
+          "user": {
+            "unique_id": "cahaya2321345",
+            "nickname": "boru boruku"
+          }
+        },
+        {
+          "id": "7704665432032658184",
+          "text": "tiktok database di china.",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793882221,
+          "user": {
+            "unique_id": "subedyumuzita",
+            "nickname": "Subed Yumuzita"
+          }
+        },
+        {
+          "id": "7704562154368860980",
+          "text": "keselekkkk 🗿",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793858192,
+          "user": {
+            "unique_id": "dinda.nugrahaa",
+            "nickname": "Dj Harris Nugraha Fanbase🫀 V2"
+          }
+        },
+        {
+          "id": "7704588127713673992",
+          "text": "jika manusia menciptakan teknologi untuk memudahkan kehidupan, maka, buatlah teknologi dengan mengumpulkan embun uap pegunungan dan merubahnya jadi air yg bisa dikonsumsi. krisis air utk daerah2 terpencil.",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1793864231,
+          "user": {
+            "unique_id": "stardust_memories",
+            "nickname": "星尘回忆"
+          }
+        },
+        {
+          "id": "7704512659885916980",
+          "text": "ohh..itu CDN..makasih bg",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793846655,
+          "user": {
+            "unique_id": "onlykhu",
+            "nickname": "axelikhuriee"
+          }
+        },
+        {
+          "id": "7704665272893326088",
+          "text": "Semua sudah boleh buka aplikasi tetapi bagai mana dengan secuarity supaya selamat dari haker dan lain2???",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793882188,
+          "user": {
+            "unique_id": "menitiujiankehidupan",
+            "nickname": "menitiujiankehidupan"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7705081234195533064",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@peka.ai.id/photo/7705081234195533064",
+      "title": "Yang paling kepakai: google/artemis, ketik perintah biasa, dia yang ngotomasi HP Android kamu. Repo mana yang mau kamu coba duluan? Link tiap repo ada di slide-nya masing-masing. Save dulu biar nggak hilang. #fyp #Antigravity #SkillAI #Hermes #Claude",
+      "creator": {
+        "name": "Peka AI - Sharing Tips AI",
+        "handle": "@peka.ai.id",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/c168eff4727e51cca183b9731058afa7~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=dcfa2d9c&x-expires=1794733200&x-signature=dVIcO7qW%2F%2BrEyVTP23d7t5BqId0%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@peka.ai.id membagikan repositori open-source AI terpilih untuk otomasi produktivitas."
+      },
+      "category": "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+      "stats": {
+        "plays": 10447,
+        "likes": 911,
+        "comments_count": 4,
+        "shares": 92,
+        "saves": 877
+      },
+      "tools_mentioned": [
+        "google/artemis",
+        "Android Automation",
+        "ADB",
+        "Terminal Antigravity"
+      ],
+      "core_lesson": "Skill `google/artemis`: Mengendalikan dan mengotomasi seluruh fungsi HP/emulator Android dari prompt bahasa alami di terminal.",
+      "community_insights": "Bisa dijalankan langsung di terminal Antigravity / harness agent untuk mobile testing dan QA automation.",
+      "top_comments": [
+        {
+          "id": "7705392211579798279",
+          "text": "Itu cara pakainya langsung di terminal antigravity kah?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1794051437,
+          "user": {
+            "unique_id": "avierrr12",
+            "nickname": "Soo Jin"
+          }
+        },
+        {
+          "id": "7707276841986130708",
+          "text": "bisa buat Hermes?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794490244,
+          "user": {
+            "unique_id": "kannon609",
+            "nickname": "Axii"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/d6d1fd9c8a3b44688f98c217eef7eda0~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=4%2BSFJx6wlPPXpIKTd1eR%2BXr277Q%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/5fa8259192344e209c57023352d6e6d9~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=GNRDmPKZRssnz%2Bgii%2FA39XPY7sU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/640a2cb23ee34ffca176ed34e9dd401b~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=iNhvCHaRwelAVCuD3IeSmTLx6X8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/019e9e2c419b49adabaa60fb80ab3994~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=0jTJyWaVgMcmZ9YVC8ozqY3pXZ0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/04d8a313d5d242a9b24f077b38613025~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=ayNoOiMRj8E4UheQ4LraOQTFznY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/5d76563e0e4f4cc081ca289939bf67a4~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=hLq2bSMbUp4M%2F2PMAv0teBIAn%2Bg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/d5240484f632462ca70b695a7a8bc1f2~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=lbNb0vQ61GctBigPfuBRftN9b3w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/cddbf7c18573461197f9f8c4dd53f3cf~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=4KZVyi4RD5EL1K826h3MnLf6yDY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7700619791463107858",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@peka.ai.id/photo/7700619791463107858",
+      "title": "Kamu install yang mana dulu? Link lengkapnya di postingan IG dan Threads @peka.ai.id. #fyp #ai #antigravity #ngoding #github  ",
+      "creator": {
+        "name": "Peka AI - Sharing Tips AI",
+        "handle": "@peka.ai.id",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/c168eff4727e51cca183b9731058afa7~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=dcfa2d9c&x-expires=1794733200&x-signature=dVIcO7qW%2F%2BrEyVTP23d7t5BqId0%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=avatar",
+        "profile_benefit": "@peka.ai.id mengelola komunitas belajar AI dan tips implementasi tools open source."
+      },
+      "category": "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+      "stats": {
+        "plays": 26734,
+        "likes": 2116,
+        "comments_count": 13,
+        "shares": 228,
+        "saves": 2045
+      },
+      "tools_mentioned": [
+        "GitHub AI Skills",
+        "Antigravity Repos",
+        "UI Scaffolding"
+      ],
+      "core_lesson": "Daftar kurasi repo skill GitHub terbaik untuk memperluas kapabilitas agen koding.",
+      "community_insights": "Komunitas aktif membagikan link grup riset komunitas AI (url.peka.ai.id) untuk berdiskusi seputar skill agent.",
+      "top_comments": [
+        {
+          "id": "7701741770304422677",
+          "text": "cara pasangnya bagaimna mas?",
+          "digg_count": 0,
+          "reply_total": 2,
+          "create_time": 1793201505,
+          "user": {
+            "unique_id": "4stroboy18",
+            "nickname": "SusuKentalManisIndomaret"
+          }
+        },
+        {
+          "id": "7700861037596082951",
+          "text": "info repo UI gacor",
+          "digg_count": 2,
+          "reply_total": 1,
+          "create_time": 1792996446,
+          "user": {
+            "unique_id": "keznovaa",
+            "nickname": "fkzy"
+          }
+        },
+        {
+          "id": "7700899763743703826",
+          "text": "jangan lupa join di grup wa komunitas AI kami di link url.peka.ai.id",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1793005468,
+          "user": {
+            "unique_id": "peka.ai.id",
+            "nickname": "Peka AI - Sharing Tips AI"
+          }
+        },
+        {
+          "id": "7701107803280360213",
+          "text": "ada skill buat computer-use kek gpt Codex g 🗿",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793053912,
+          "user": {
+            "unique_id": "skyyyx_7",
+            "nickname": "skyyyx"
+          }
+        },
+        {
+          "id": "7700796943618654983",
+          "text": "nice info, izin follow 🙏🏻",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1792981528,
+          "user": {
+            "unique_id": "ramdndipa_",
+            "nickname": "Rama D"
+          }
+        },
+        {
+          "id": "7702079985138385671",
+          "text": "itu pasangnya disetiap project apa gimana puh",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793280250,
+          "user": {
+            "unique_id": "aryadis_23",
+            "nickname": "aryayh"
+          }
+        },
+        {
+          "id": "7700826302483645205",
+          "text": "yang buat task umum dong bang",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1792988362,
+          "user": {
+            "unique_id": "mercyyy672",
+            "nickname": "Merccyyy"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/64bf890200d04b4082433f9f9a2fbbae~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=iPJ2iabqkjTynZTE%2BdKRdGHYfR8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/5fd88e2f89c94edb91074c7f0d9825d8~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=hDpeu%2Fwg5iorNAYwgEGiGpY9NK4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/7fdf4101fad64b64944c22814b42a1e7~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=SpdmAnS3swPWMRKh0S%2Frv71Uf0s%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/4d3ed87f3b8f4218837df330e948937a~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=59sSnhwV18VCO0dVcQH5PSJ3fwo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/0761037b428d4ec09ed23cd21f758235~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=t2pm051jQ6h78AGlRy8yYyhuqsI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/5c27cc9c7ef94dc698c9581e6ab8da76~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=I4wHo4QRSE5WdP6EjEhxM9M9od8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/f2a1d4b976334aca8005beda8da86519~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=1FTctg9JWCERb0lVuMIxyjwI8sY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7706935977759149320",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@nandawithtech/photo/7706935977759149320",
+      "title": "vibe coding gak lengkap kalo gak peke skills ini 😆 #vibecoding #fypシ #programming ",
+      "creator": {
+        "name": "Nanda | Tech Bro🧑🏻‍💻",
+        "handle": "@nandawithtech",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/ccc40c1437cf00d169913033699b2887~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=479ef97e&x-expires=1794733200&x-signature=BP6m%2B%2BaaHtxzbJ75n0Ookyi7xuA%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@nandawithtech mengulas tools mutakhir vibe coding dengan perspektif engineer."
+      },
+      "category": "Software Engineering, Security & Systems (7 OSI Layers, k6 Load Testing, Backend Scaling)",
+      "stats": {
+        "plays": 73418,
+        "likes": 8204,
+        "comments_count": 16,
+        "shares": 650,
+        "saves": 7097
+      },
+      "tools_mentioned": [
+        "Cloudflare Security Audit Skill",
+        "Argon Model",
+        "Vulnerability Scanner"
+      ],
+      "core_lesson": "Menggunakan skill Security Audit untuk memindai kelemahan kode full-stack (Go backend, React web, Java Android).",
+      "community_insights": "Insight praktis pengguna (@piiw): Menjalankan audit keamanan komprehensif pada codebase besar memakan waktu 5 jam dan banyak token, tetapi hasil audit mampu menemukan zero-day dan celah logika yang lolos dari linter konvensional.",
+      "top_comments": [
+        {
+          "id": "7707208404968768264",
+          "text": "security audit cloudflare hanya untuk yg punya unlimited token, boros parah wkwk",
+          "digg_count": 9,
+          "reply_total": 1,
+          "create_time": 1794474304,
+          "user": {
+            "unique_id": "firmansyahramadh45",
+            "nickname": "dendeng_cabe_hijau"
+          }
+        },
+        {
+          "id": "7707000251840430869",
+          "text": "gmn cara pakainya",
+          "digg_count": 3,
+          "reply_total": 1,
+          "create_time": 1794425847,
+          "user": {
+            "unique_id": "sak_madik",
+            "nickname": "ngok"
+          }
+        },
+        {
+          "id": "7707650255517664020",
+          "text": "bang ai yang bagus buat vibe coding apaan ?",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794577186,
+          "user": {
+            "unique_id": "gediseded",
+            "nickname": "hey"
+          }
+        },
+        {
+          "id": "7707218852459643700",
+          "text": "yg security audit skills, dirun pake argon habis 5 jam wkwk, appnya lumayan besar sih backend golang, web client react, android client java, tpi asli jadi tau mana yang lemah mana yang masih ada celahnya, setara lah dengan waktu + biaya tokennya",
+          "digg_count": 4,
+          "reply_total": 0,
+          "create_time": 1794476748,
+          "user": {
+            "unique_id": "haiapiiw",
+            "nickname": "piiw"
+          }
+        },
+        {
+          "id": "7707167869767746325",
+          "text": "saya masih pake MS / PC Dos 1.0 🤭",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1794464879,
+          "user": {
+            "unique_id": "shinchanhadi",
+            "nickname": "🔥 Shin Chan Hadiningrat 🔥"
+          }
+        },
+        {
+          "id": "7707025734095946503",
+          "text": "bis kasih link repo buat antislop nya mas?",
+          "digg_count": 1,
+          "reply_total": 2,
+          "create_time": 1794431780,
+          "user": {
+            "unique_id": "fiq.html",
+            "nickname": "Qii_iiQ?"
+          }
+        },
+        {
+          "id": "7707176024497488646",
+          "text": "thanks bang👍",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794466782,
+          "user": {
+            "unique_id": "rwgenz013",
+            "nickname": "RWGENZ 013"
+          }
+        },
+        {
+          "id": "7707521872749642504",
+          "text": "Penasaran sama anatomy. Ada yang pernah coba?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794547291,
+          "user": {
+            "unique_id": "rahmadahya.dev",
+            "nickname": "Rahmadahya | DEV"
+          }
+        },
+        {
+          "id": "7707441592390845192",
+          "text": "😁😁😁",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1794528614,
+          "user": {
+            "unique_id": "cendoldwtt",
+            "nickname": "icikiwir"
+          }
+        },
+        {
+          "id": "7707716518087787265",
+          "text": "[LOL Besar][LOL Besar][LOL Besar]",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794592626,
+          "user": {
+            "unique_id": "punchking23",
+            "nickname": "Luc__22"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/f50d908acc66427bac0b766c34ee7700~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=%2BiYjF%2BW6BSTQ%2BhdsYQO%2BqrASeVo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/4fb165db769943eda8e414ec218098c1~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=R%2FDqV9J3nVNH%2B8sSza1i0bbqTMg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/80fb11737939402fa0d15fbae4cf33f5~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=iXKI6JUELvZF2BQ9U%2FjTG9IO95o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/8d354419e96a42a8b3d693a8e985a7af~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=aV3CCDqc%2F4z%2BsJ3iSgPugXot5dc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7706909564481965333",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@mrcontent.ai/video/7706909564481965333",
+      "title": "📌 Link Find Skills + cara pasangnya udah ada ya! Follow dulu, terus buka link di bio   👉 mrcreate.studio/find-skill Atau komen CARI, nanti gue bales 🔍",
+      "creator": {
+        "name": "Creative AI Faceless",
+        "handle": "@mrcontent.ai",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/551ef8922a9f5134ca4d4d46004e4222~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=4f8748a5&x-expires=1794733200&x-signature=bNP6XokdZKPWDvgHbm2ZFfHD%2BDk%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@mrcontent.ai fokus pada monetisasi konten faceless dan automasi workflow media."
+      },
+      "category": "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+      "stats": {
+        "plays": 43962,
+        "likes": 2839,
+        "comments_count": 1591,
+        "shares": 289,
+        "saves": 2704
+      },
+      "tools_mentioned": [
+        "Find Skills Installer",
+        "Claude CLI",
+        "Faceless Automation"
+      ],
+      "core_lesson": "Langkah cepat instalasi Find Skills untuk kreator konten faceless dan pemula.",
+      "community_insights": "Minat yang sangat tinggi (1.500+ komentar) terhadap kemudahan mencari plugin agent tanpa coding manual.",
+      "top_comments": [
+        {
+          "id": "7707245112275501832",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794482858,
+          "user": {
+            "unique_id": "ayo_cerita27",
+            "nickname": "Ayo cerita"
+          }
+        },
+        {
+          "id": "7707477484517999381",
+          "text": "Cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794536960,
+          "user": {
+            "unique_id": "kisahduaroda",
+            "nickname": "kisahduaroda"
+          }
+        },
+        {
+          "id": "7707921071526478600",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794640241,
+          "user": {
+            "unique_id": "suhariyono0812",
+            "nickname": "Duta mager"
+          }
+        },
+        {
+          "id": "7707835823265907477",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794620408,
+          "user": {
+            "unique_id": "kalllzy8",
+            "nickname": "kalllzy"
+          }
+        },
+        {
+          "id": "7707846165601895220",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794622812,
+          "user": {
+            "unique_id": "tokoomnana",
+            "nickname": "Toko Om Nana"
+          }
+        },
+        {
+          "id": "7707121278175888148",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 4,
+          "create_time": 1794454024,
+          "user": {
+            "unique_id": "alitiraf99",
+            "nickname": "who am i"
+          }
+        },
+        {
+          "id": "7707560658451301127",
+          "text": "CARI",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794556322,
+          "user": {
+            "unique_id": "jaga.prabowo1",
+            "nickname": "Jaga Prabowo"
+          }
+        },
+        {
+          "id": "7707609761219379976",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794567753,
+          "user": {
+            "unique_id": "kizusuita.kusyaai",
+            "nickname": "Kizusuita Kusyaai da"
+          }
+        },
+        {
+          "id": "7707480635057160968",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794537693,
+          "user": {
+            "unique_id": "dmrshll",
+            "nickname": "Diomarshall"
+          }
+        },
+        {
+          "id": "7707289480227635988",
+          "text": "cari",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794493188,
+          "user": {
+            "unique_id": "aryajbr_",
+            "nickname": "Arya"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7705903981985287444",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@george.automates/photo/7705903981985287444",
+      "title": "Here's my S+ to D ranking. Prove me wrong. #claude #claudecode #aiskills #aiautomation",
+      "creator": {
+        "name": "george.automates",
+        "handle": "@george.automates",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/e02988fca66e78d162c9e19ab9cc7cca~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=7dd8142f&x-expires=1794733200&x-signature=NvXSrwd9FgJ6dDNJ55pxUDUGCZ0%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@george.automates adalah praktisi automasi AI global yang rutin mengevaluasi efektivitas skill."
+      },
+      "category": "AI Automation, Skills Ecosystem & Local Agents (n8n, Find Skills, Artemis)",
+      "stats": {
+        "plays": 220705,
+        "likes": 18871,
+        "comments_count": 239,
+        "shares": 1225,
+        "saves": 16870
+      },
+      "tools_mentioned": [
+        "HyperFrames",
+        "Superpowers Skill",
+        "Prompt Master",
+        "Claude Code Skills"
+      ],
+      "core_lesson": "Tier list Claude Skills: HyperFrames (S+ Tier), Superpowers (A Tier dengan catatan boros token), Prompt Master.",
+      "community_insights": "Peringatan netizen (@David71479): 'Superpowers burns through tokens like nothing else'. Berhati-hatilah mengaktifkan multi-agent autonomous loop jika tidak memiliki batas kuota.",
+      "top_comments": [
+        {
+          "id": "7707615795308069654",
+          "text": "HyperFrames ✊🏻",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794569196,
+          "user": {
+            "unique_id": "yaoki.fr",
+            "nickname": "YAOKI"
+          }
+        },
+        {
+          "id": "7706232732426830614",
+          "text": "super powers burns through tokens like nothing else",
+          "digg_count": 20,
+          "reply_total": 5,
+          "create_time": 1794247148,
+          "user": {
+            "unique_id": "qwerasszxc1245",
+            "nickname": "David71479"
+          }
+        },
+        {
+          "id": "7707932831364563734",
+          "text": "Progressing",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794643013,
+          "user": {
+            "unique_id": "ethanbrooks027",
+            "nickname": "𝓔𝓽𝓱𝓪𝓷 𝓑𝓻𝓸𝓸𝓴�"
+          }
+        },
+        {
+          "id": "7706109018074563361",
+          "text": "Superpowers is so ahh",
+          "digg_count": 79,
+          "reply_total": 9,
+          "create_time": 1794218364,
+          "user": {
+            "unique_id": "abuyahyamusa",
+            "nickname": "Abu Yahya"
+          }
+        },
+        {
+          "id": "7705986107184628487",
+          "text": "What about prompt master",
+          "digg_count": 32,
+          "reply_total": 8,
+          "create_time": 1794189729,
+          "user": {
+            "unique_id": "speedaple",
+            "nickname": "speedapple"
+          }
+        },
+        {
+          "id": "7707862311239746318",
+          "text": "SKILLS",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794626613,
+          "user": {
+            "unique_id": "brandon_k705",
+            "nickname": "Brandon Kenneally"
+          }
+        },
+        {
+          "id": "7706395663177024287",
+          "text": "Absolutely not. Superpowers with modern ai will make it talk in circles for hours and accomplish nothing",
+          "digg_count": 2,
+          "reply_total": 2,
+          "create_time": 1794285110,
+          "user": {
+            "unique_id": "drewtravels1",
+            "nickname": "Drew"
+          }
+        },
+        {
+          "id": "7705967466586325812",
+          "text": "grill-me - one love",
+          "digg_count": 9,
+          "reply_total": 3,
+          "create_time": 1794185412,
+          "user": {
+            "unique_id": "ya_seroga",
+            "nickname": "sk"
+          }
+        },
+        {
+          "id": "7706894368565199646",
+          "text": "I don’t use skills",
+          "digg_count": 1,
+          "reply_total": 4,
+          "create_time": 1794401255,
+          "user": {
+            "unique_id": "kadenpenn",
+            "nickname": "￶Kaden"
+          }
+        },
+        {
+          "id": "7706258690235499284",
+          "text": "ecc>superpowers",
+          "digg_count": 0,
+          "reply_total": 5,
+          "create_time": 1794253186,
+          "user": {
+            "unique_id": "englissshhh",
+            "nickname": "I'm busy"
+          }
+        }
+      ],
+      "images": [
+        "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/b7329aee95ae48108443d4f6f24e6d68~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=dRpnZ4K45wftJEIpcm0M%2FmSv%2FWc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/db5b75ccf66d4222add7bdf76c7a0bd8~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=bhIDvFvR9PEAgwrxaiNALbmkhXw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7701302364929608968",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@fable6_/video/7701302364929608968",
+      "title": "belajar AI Engineer dari 0 FREE #softwareengineer #ai #fyp ",
+      "creator": {
+        "name": "fable6_",
+        "handle": "@fable6_",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/6b581d4783b2b38e1c83a490827965a4~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=ce00a393&x-expires=1794733200&x-signature=dSNRkWZw6WtC76NCxM8zVO2as3Q%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@fable6_ mengedukasi jalur karir software engineer dan AI engineer modern."
+      },
+      "category": "AI Coding & Agent Mastery (Antigravity, Claude, Codex, Karpathy Rules)",
+      "stats": {
+        "plays": 46622,
+        "likes": 4470,
+        "comments_count": 34,
+        "shares": 436,
+        "saves": 3641
+      },
+      "tools_mentioned": [
+        "Python",
+        "Machine Learning Roadmap",
+        "RAG",
+        "Vector DB",
+        "LangChain"
+      ],
+      "core_lesson": "Roadmap lengkap menjadi AI Engineer dari nol tanpa biaya: Dasar Matematika -> Python -> ML/DL -> RAG -> AI Agent Architecture.",
+      "community_insights": "Menguasai dasar AI Engineering memberikan intuisi jauh lebih tajam dalam melakukan vibe coding dan debugging sistem berbasis agen.",
+      "top_comments": [
+        {
+          "id": "7701453163236377362",
+          "text": "klo g bisa tulis coding,msih bisa bljr g kk?",
+          "digg_count": 10,
+          "reply_total": 2,
+          "create_time": 1793134312,
+          "user": {
+            "unique_id": "byou.gadgetdaily",
+            "nickname": "BYOU | Gadget Daily"
+          }
+        },
+        {
+          "id": "7702740268877628167",
+          "text": "cara pakai nya gimana njirr, gw bingung make nya gimana",
+          "digg_count": 3,
+          "reply_total": 7,
+          "create_time": 1793433988,
+          "user": {
+            "unique_id": ".voldigoad_01",
+            "nickname": "Ft | Anos"
+          }
+        },
+        {
+          "id": "7701592343669474055",
+          "text": "apakah dengan menguasai dasar AI engineering bisa mempermudah untuk belajar vibe coding ya?",
+          "digg_count": 6,
+          "reply_total": 1,
+          "create_time": 1793166717,
+          "user": {
+            "unique_id": "virtualimaji",
+            "nickname": "Virtual Imaji"
+          }
+        },
+        {
+          "id": "7703384832048612117",
+          "text": "",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1793584071,
+          "user": {
+            "unique_id": "itslennhere",
+            "nickname": "gii"
+          }
+        },
+        {
+          "id": "7701515495031882514",
+          "text": "itu sekalian machine learning di dalamnya bang? biar urut gitu dari math->ML->DL->baru itu",
+          "digg_count": 8,
+          "reply_total": 1,
+          "create_time": 1793148830,
+          "user": {
+            "unique_id": "haveofman",
+            "nickname": "Haveman"
+          }
+        },
+        {
+          "id": "7702608221944742663",
+          "text": "nice ilmu bang!",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1793403249,
+          "user": {
+            "unique_id": "arca.laurien",
+            "nickname": "Arca Laurien"
+          }
+        },
+        {
+          "id": "7706282454492414741",
+          "text": "ini lu pakai remotion Claude ga sih bang buat ngedit video ini.. dari gerakan animasinya kok kayak punya Claude.. tapi, gak tau deh kalo bikin sendiri di after effects",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1794258735,
+          "user": {
+            "unique_id": "winds.af",
+            "nickname": "Wind's AF"
+          }
+        },
+        {
+          "id": "7701488770806629126",
+          "text": "good",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1793142615,
+          "user": {
+            "unique_id": "novyxbotwatele",
+            "nickname": "NOVYX. OPEN ORDER BOT"
+          }
+        },
+        {
+          "id": "7701768075125490484",
+          "text": "rekomendasi laptop buat belajar ai enginer bang, buged 7jtan🙏",
+          "digg_count": 0,
+          "reply_total": 3,
+          "create_time": 1793207640,
+          "user": {
+            "unique_id": "callmeompo",
+            "nickname": "Om Po"
+          }
+        },
+        {
+          "id": "7703140338295112469",
+          "text": "Harus pakai plychrt",
+          "digg_count": 2,
+          "reply_total": 0,
+          "create_time": 1793527142,
+          "user": {
+            "unique_id": "simpelkoding",
+            "nickname": "simpel koding"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7701674050573651220",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@twk.dev/video/7701674050573651220",
+      "title": "Penanda AI tersembunyi di file kamu? Ini cara membersihkan metadata watermark dari Claude, ChatGPT, dan Gemini secara otomatis! Anthropic mengonfirmasi penanaman digital signature berupa Unicode tersembunyi dan metadata di seluruh file keluaran Claude (PNG, PDF, SVG, HTML). Untuk menjaga privasi aset dan kredibilitas dokumen, komunitas merilis repositori Watermark Remover. Link Repo : https://github.com/guillaumemeyer/watermarks-remover #WatermarkRemover #ClaudeAI #Anthropic #ChatGPT #GeminiAI  ",
+      "creator": {
+        "name": "Triwikrama",
+        "handle": "@twk.dev",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/3d3b46d06f6a3a2f10b437183aa7ccea~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=1f19a663&x-expires=1794733200&x-signature=QrQ4xyqAGV1MnSaMeKi0QGIU1Hw%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@twk.dev (Triwikrama) sering mengungkap sisi teknis tersembunyi dari keamanan software dan algoritma AI."
+      },
+      "category": "Content Creation, Video & Media AI (Claude Animasi, Watermark Remover, Web-to-APK)",
+      "stats": {
+        "plays": 174996,
+        "likes": 16363,
+        "comments_count": 52,
+        "shares": 1668,
+        "saves": 11396
+      },
+      "tools_mentioned": [
+        "Watermarks Remover Repo",
+        "Zero-width Unicode Cleaner",
+        "Claude AI Signature"
+      ],
+      "core_lesson": "Cara mendeteksi dan membersihkan digital signature tersembunyi (zero-width characters & metadata) yang disisipkan oleh model seperti Claude/ChatGPT pada file keluaran menggunakan open-source repo `watermarks-remover`.",
+      "community_insights": "Repo GitHub: `https://github.com/guillaumemeyer/watermarks-remover`. Sangat penting bagi pengembang dan kreator untuk menjaga privasi kode dan integritas aset.",
+      "top_comments": [
+        {
+          "id": "7701883309248430869",
+          "text": "diparafrase aman kn?",
+          "digg_count": 1,
+          "reply_total": 3,
+          "create_time": 1793234475,
+          "user": {
+            "unique_id": "ln_mcart",
+            "nickname": "brogan"
+          }
+        },
+        {
+          "id": "7701920388158128916",
+          "text": "ada ada ae kerjaan pejuang open source",
+          "digg_count": 222,
+          "reply_total": 2,
+          "create_time": 1793243237,
+          "user": {
+            "unique_id": "mxstirner",
+            "nickname": "LettuceCook"
+          }
+        },
+        {
+          "id": "7707311982190183169",
+          "text": "telat, baru aja gw kirim 🤦‍♂️",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794498424,
+          "user": {
+            "unique_id": "joe.qwerty123",
+            "nickname": "joe.qwerty123"
+          }
+        },
+        {
+          "id": "7701748239339520789",
+          "text": "",
+          "digg_count": 11,
+          "reply_total": 2,
+          "create_time": 1793203013,
+          "user": {
+            "unique_id": "mariowlng",
+            "nickname": "Mario"
+          }
+        },
+        {
+          "id": "7702608500409254708",
+          "text": "ai vs ai...\n2077 Terminator vs human",
+          "digg_count": 20,
+          "reply_total": 0,
+          "create_time": 1793403320,
+          "user": {
+            "unique_id": "riko.the.butcher5",
+            "nickname": "Riko The Butcher"
+          }
+        },
+        {
+          "id": "7701959195847901972",
+          "text": "yang kuliah pusing 🤣",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793252145,
+          "user": {
+            "unique_id": "hemmz38",
+            "nickname": "hemmz"
+          }
+        },
+        {
+          "id": "7702119039631524615",
+          "text": "lucu bgt weh",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793289342,
+          "user": {
+            "unique_id": "userycdo5tpm3n",
+            "nickname": "jig667mer"
+          }
+        },
+        {
+          "id": "7702018278667010837",
+          "text": "bagaimana jika dengan diketik ulang dokumennya? [Big LOL]",
+          "digg_count": 10,
+          "reply_total": 2,
+          "create_time": 1793265884,
+          "user": {
+            "unique_id": "herman.xu.ou.di",
+            "nickname": "Herman Xu Ou Di"
+          }
+        },
+        {
+          "id": "7701776462173422356",
+          "text": "bg izin tanya kalau semisal ngk d hilang kan watermark ny apa ada pengaruh nya atau bakal beda nanti waktu d up?",
+          "digg_count": 6,
+          "reply_total": 8,
+          "create_time": 1793209591,
+          "user": {
+            "unique_id": "the_cutrate",
+            "nickname": "𝛑¹I•"
+          }
+        },
+        {
+          "id": "7707154912438698773",
+          "text": "cara pakenya gmana kak",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794461856,
+          "user": {
+            "unique_id": "anyyeongsarang",
+            "nickname": "Strawberry Custard"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7704929806173080853",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@zackyarta/video/7704929806173080853",
+      "title": "Microinteraction yang bikin website AI terasa mahal (copy prompt-nya) Web buatan AI sering kaku pas diklik. Tiga keyword ini yang gue pake buat bikin web terasa hidup. Simpen buat prompt lu. #frontend #uiux #microinteractions #webdesign #claudecode ",
+      "creator": {
+        "name": "zackyarta",
+        "handle": "@zackyarta",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/d92425fb08e812d080ec4887aba77063~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=d90ba829&x-expires=1794733200&x-signature=FkE%2FToWOkRTASQXWmaUkozLs9UM%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=avatar",
+        "profile_benefit": "@zackyarta membagikan snippet Tailwind dan CSS animation siap salin untuk web developer."
+      },
+      "category": "UI/UX Design, Microinteractions & Frontend Magic (ui-ux-pro-max, FigCraft)",
+      "stats": {
+        "plays": 157112,
+        "likes": 16913,
+        "comments_count": 30,
+        "shares": 1090,
+        "saves": 12372
+      },
+      "tools_mentioned": [
+        "Tailwind CSS",
+        "Microinteractions",
+        "Framer Motion",
+        "Skeleton Shimmer"
+      ],
+      "core_lesson": "3 Formula Prompt Microinteraction untuk mengubah web buatan AI dari kaku menjadi premium: Button Active Spring Scale, Card Hover Elevation Glow, dan Skeleton Wave Shimmer.",
+      "community_insights": "Prompt ini langsung disambut antusias oleh ratusan desainer front-end karena menyelesaikan masalah utama website buatan AI yang terasa 'mati' saat disentuh.",
+      "top_comments": [
+        {
+          "id": "7705000101424579348",
+          "text": "yahh terlambat udah di kumpulin 🗿",
+          "digg_count": 90,
+          "reply_total": 3,
+          "create_time": 1793960142,
+          "user": {
+            "unique_id": "akun_tidak_di_kenalii",
+            "nickname": "JUAN20"
+          }
+        },
+        {
+          "id": "7705033843506201351",
+          "text": "LOVE.......... THIS INFORMATION THANK YOU SO MUCH.. TUHAN BAGILAH ABANG NI KAYA RAYA😇😇😇",
+          "digg_count": 7,
+          "reply_total": 1,
+          "create_time": 1793968000,
+          "user": {
+            "unique_id": "coco.zii0",
+            "nickname": "Coco Zii"
+          }
+        },
+        {
+          "id": "7704946635206312705",
+          "text": "Button Animation : pas di pencet\nCard hover : pas di pencet ada animasi\nSkeleton Shimmer : LOADING",
+          "digg_count": 73,
+          "reply_total": 1,
+          "create_time": 1793947702,
+          "user": {
+            "unique_id": "f4tzv2",
+            "nickname": "Fattah"
+          }
+        },
+        {
+          "id": "7705737678595212053",
+          "text": "The way Cocodly turns prompts into websites is insane",
+          "digg_count": 2,
+          "reply_total": 0,
+          "create_time": 1794131877,
+          "user": {
+            "unique_id": "back.in___",
+            "nickname": "back in🏴‍☠️"
+          }
+        },
+        {
+          "id": "7705034596895507252",
+          "text": "thanks info",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793968178,
+          "user": {
+            "unique_id": "syaddz73",
+            "nickname": "𝐒𝐘𝐀𝐃𝐃𝐙 𝙫𝙞𝙗𝙚𝙘𝙤𝙙𝙚"
+          }
+        },
+        {
+          "id": "7707886999479239431",
+          "text": "biar ga slop banget gimana",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794632313,
+          "user": {
+            "unique_id": "great_king_oikawa",
+            "nickname": "Oikawa👑"
+          }
+        },
+        {
+          "id": "7704992424293450504",
+          "text": "makasi bang",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1793958364,
+          "user": {
+            "unique_id": "naqy.bjr",
+            "nickname": "NAQY Bjr?"
+          }
+        },
+        {
+          "id": "7705308921699402548",
+          "text": "info bagus biar pecutan lebih lengkap",
+          "digg_count": 3,
+          "reply_total": 0,
+          "create_time": 1794032053,
+          "user": {
+            "unique_id": "kyagimaru",
+            "nickname": "n"
+          }
+        },
+        {
+          "id": "7705171279385674504",
+          "text": "lah, video ini juga buatan ai🗿",
+          "digg_count": 2,
+          "reply_total": 0,
+          "create_time": 1794000010,
+          "user": {
+            "unique_id": "hmrwxz",
+            "nickname": "M A X 🇪🇸"
+          }
+        },
+        {
+          "id": "7706687711562154772",
+          "text": "etdah, udh gua presentasiin lagi kmrin malam sialan🗿",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794353084,
+          "user": {
+            "unique_id": "freezylealva",
+            "nickname": "Freezyle | ALVASTUDIO"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7705594906798083350",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@louis_vids1/photo/7705594906798083350",
+      "title": "I made a GUI concept for Roblox Studio! 🎨 What do you think? Would you use a UI like this in your game? Let me know your suggestions and ideas in the comments! 👇 #RobloxStudio #RobloxDev #RobloxUI #GameDevelopment #Roblox",
+      "creator": {
+        "name": "꧁༒LouisOfficial༒꧂",
+        "handle": "@louis_vids1",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/b66cceb6c0062ef72daf2187c2b0f784~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=7bca6ae3&x-expires=1794733200&x-signature=7sB2RuivMWShACSMGw9nmuUBdFU%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@louis_vids1 adalah desainer UI/GUI game Roblox yang aktif bereksperimen dengan interface interaktif."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 190764,
+        "likes": 13988,
+        "comments_count": 243,
+        "shares": 2075,
+        "saves": 12630
+      },
+      "tools_mentioned": [
+        "Roblox Studio GUI",
+        "Figma to Roblox",
+        "Claude Luau Code"
+      ],
+      "core_lesson": "Konsep antarmuka GUI game Roblox modern dengan estetika minimalis dan responsif.",
+      "community_insights": "Tren konversi langsung dari screenshot UI / Figma ke script UI Luau via Claude vision.",
+      "top_comments": [
+        {
+          "id": "7705883571785777942",
+          "text": "or use figma",
+          "digg_count": 67,
+          "reply_total": 7,
+          "create_time": 1794165858,
+          "user": {
+            "unique_id": "zari_dev",
+            "nickname": "𝑍ari"
+          }
+        },
+        {
+          "id": "7705944639979143969",
+          "text": "How do y’all share tiktok content with Claude",
+          "digg_count": 14,
+          "reply_total": 6,
+          "create_time": 1794180090,
+          "user": {
+            "unique_id": "jacobgh69",
+            "nickname": "jacob"
+          }
+        },
+        {
+          "id": "7707813178076398358",
+          "text": "try it yo, genuinely unique.",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794615217,
+          "user": {
+            "unique_id": "odesnew",
+            "nickname": "odeshere"
+          }
+        },
+        {
+          "id": "7705750056654226208",
+          "text": "straight to claude",
+          "digg_count": 633,
+          "reply_total": 1,
+          "create_time": 1794134773,
+          "user": {
+            "unique_id": "nullapufvnc",
+            "nickname": "Lawson"
+          }
+        },
+        {
+          "id": "7707952719390458657",
+          "text": "Please test it?",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794647621,
+          "user": {
+            "unique_id": "roblox.roblox.gaming",
+            "nickname": "Roblox Games"
+          }
+        },
+        {
+          "id": "7706125690349880072",
+          "text": "brainrot game ui💀✌️",
+          "digg_count": 72,
+          "reply_total": 1,
+          "create_time": 1794222217,
+          "user": {
+            "unique_id": "darksoul.64",
+            "nickname": "Уран"
+          }
+        },
+        {
+          "id": "7705825894216270614",
+          "text": "can anyone try and honest feedback",
+          "digg_count": 1,
+          "reply_total": 11,
+          "create_time": 1794152433,
+          "user": {
+            "unique_id": "j00r88",
+            "nickname": "️"
+          }
+        },
+        {
+          "id": "7706060050184782610",
+          "text": "straight to my vault",
+          "digg_count": 13,
+          "reply_total": 5,
+          "create_time": 1794206946,
+          "user": {
+            "unique_id": "rbxgamerate",
+            "nickname": "Kenji_Man"
+          }
+        },
+        {
+          "id": "7706156923683242774",
+          "text": "Gui i made",
+          "digg_count": 12,
+          "reply_total": 15,
+          "create_time": 1794229522,
+          "user": {
+            "unique_id": "mael12345661",
+            "nickname": "mael12345661"
+          }
+        },
+        {
+          "id": "7706537715538739999",
+          "text": "Get creative, draw and plan ts out and make it. It's genuinely not hard, effort gets more money especially in the things that pull money in",
+          "digg_count": 5,
+          "reply_total": 6,
+          "create_time": 1794318227,
+          "user": {
+            "unique_id": "the_uneducated0",
+            "nickname": "The_Uneducated"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-i-photomode-no/ed8a478ddd6a4a54822fc8317228dd93~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=yQteU1PKeDEHolWH9KqzDDMgFfY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-no1a-i-photomode-no/491712f711b04bd4b7b1172ffaa652a5~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=2ONuxHLA%2Bmpo%2BVXhS8btWKoRz7c%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-i-photomode-no/ba41db8a92044639883bdf5abdfa1c5b~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=NRPhe8UpEk4wtZrCYSmMjqxMGxA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-i-photomode-no/d43d0488ac1a44d2876b2b98dd29c54b~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=KN6Osg2pEYzJLBz473gRtZ6vdLY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-i-photomode-no/a20b8d0b9ac2441694072e8832c03bf7~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=JmBgOQpGgYtmjzKZrG07gxp%2BDlY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7696244070414322976",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@jentagon/photo/7696244070414322976",
+      "title": "#viral #tiktok #roblox #dev #money ",
+      "creator": {
+        "name": "Jentagon",
+        "handle": "@jentagon",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/4f30611c2447e6d850328b68a2da8bd8~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=42c1afd0&x-expires=1794733200&x-signature=KeKchRAtnkTjoq8DrXDLXzvo9vE%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@jentagon mengulas seputar ekosistem bisnis dan game development di platform Roblox."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 11605,
+        "likes": 898,
+        "comments_count": 35,
+        "shares": 132,
+        "saves": 468
+      },
+      "tools_mentioned": [
+        "Roblox Monetization",
+        "Luau Fundamentals",
+        "Multiplayer Architecture"
+      ],
+      "core_lesson": "Strategi monetisasi game Roblox dan perdebatan seputar penggunaan AI dalam menulis kode Luau.",
+      "community_insights": "Bantahan keras dari top developer Roblox (@Domis, @Rex): Klaim 'tidak perlu belajar Luau' adalah mitos berbahaya. Game sukses membutuhkan pemahaman mendalam tentang arsitektur client-server Roblox, replication, dan data store yang belum bisa ditangani AI tanpa pengawasan manusia.",
+      "top_comments": [
+        {
+          "id": "7707396103591887624",
+          "text": "Please try my game. Published it few days ago and it genuinely had 2 days of so much activity but then started flopping.",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1794518017,
+          "user": {
+            "unique_id": "j612.dxb",
+            "nickname": "Jasooonnn 💙"
+          }
+        },
+        {
+          "id": "7696258732515181334",
+          "text": "tip 3 is not true, top roblox games don't even touch ai for scripting, it gets so much more complicated with spaghetti code",
+          "digg_count": 7,
+          "reply_total": 4,
+          "create_time": 1791924909,
+          "user": {
+            "unique_id": "realdomis",
+            "nickname": "Domis"
+          }
+        },
+        {
+          "id": "7696458815517541153",
+          "text": "“There is no point in learning luau anymore” is the biggest BS😂",
+          "digg_count": 8,
+          "reply_total": 4,
+          "create_time": 1791971514,
+          "user": {
+            "unique_id": "rexecute",
+            "nickname": "Rex"
+          }
+        },
+        {
+          "id": "7698074536705245968",
+          "text": "“no point in learning luau” and “understand what the AI is doing and how the game works.” in the same paragraph is crazy",
+          "digg_count": 2,
+          "reply_total": 0,
+          "create_time": 1792347662,
+          "user": {
+            "unique_id": "mgdgames0",
+            "nickname": "barhiman"
+          }
+        },
+        {
+          "id": "7705622501284496180",
+          "text": "try please",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1794105098,
+          "user": {
+            "unique_id": "dimon_1klass",
+            "nickname": "HKS"
+          }
+        },
+        {
+          "id": "7698111948794495751",
+          "text": "\"no point in learning luau\"",
+          "digg_count": 2,
+          "reply_total": 0,
+          "create_time": 1792356382,
+          "user": {
+            "unique_id": "lassoulo",
+            "nickname": "Lassoul"
+          }
+        },
+        {
+          "id": "7696892490670883605",
+          "text": "tips on ads?",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1792072447,
+          "user": {
+            "unique_id": "vwooro3",
+            "nickname": "vWooro"
+          }
+        },
+        {
+          "id": "7701434027202675469",
+          "text": "ai is a tool not something u can rely on, especially for anti exploits",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1793129889,
+          "user": {
+            "unique_id": "m1e1231",
+            "nickname": "Falling Debris"
+          }
+        },
+        {
+          "id": "7696536105437299478",
+          "text": "was going good until the not point of learning lua 😭",
+          "digg_count": 2,
+          "reply_total": 0,
+          "create_time": 1791989486,
+          "user": {
+            "unique_id": "nine0clockk",
+            "nickname": "Catabolic"
+          }
+        },
+        {
+          "id": "7698474176424772372",
+          "text": "Better ball guys",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1792440726,
+          "user": {
+            "unique_id": "mergeaballdev",
+            "nickname": "RbDev"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/57c8abf30d1d43c589a424efdb582e70~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=dXZAY%2FattHxhf3F7h5aQXCi1B6I%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/31496141ae4b4af39598d27b6d23ddbf~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=8p6BymJK9ODBXNXHcd0XQGaBxxs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/4115f112d93b47adade019e0340fbf1f~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=mWyViRbUn%2FK8rsS%2BdKVw8amR3nE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/2ff4c5a6ace540a4a29e6316f2f52335~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=d3mX0cawzkpNn0%2FMi96RWa616Gk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/1cd2a7f216624774bd627c91eed25f0f~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=3VzoEcW%2BXpiD%2Ftm4Q9ungbQ%2BTpo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7693230630779309345",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@axilery.tech/photo/7693230630779309345",
+      "title": "I have been working on my Roblox game with several AIs, however, I have realized that they serve different purposes depending on their role in the process. So, ChatGPT serves mostly as a planning and ideation AI tool. As far as Claude is concerned, this AI is a kind of tester/dev who fixes any issues that appear. As for Rebirth and Lemonade, Rebirth is a main builder for large features and Lemonade is for those features which are even larger and complex. BloxBot can be treated as a backup option when I get stuck. You do not necessarily have to use all these tools, but using various AIs for different aspects of Roblox game development makes everything much easier. Which AI do you use for Roblox Studio? 👀 #Roblox #RobloxStudio #RobloxDev #RobloxGameDev #AI",
+      "creator": {
+        "name": "axilery",
+        "handle": "@axilery.tech",
+        "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/82475eb7715801562e726f92e9fb20dd~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=ef957d2c&x-expires=1794733200&x-signature=%2BqQdHH3SSWGz%2BtI%2BpibTJUWkp5w%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@axilery.tech aktif membagikan metodologi game development modular berbasis kecerdasan buatan."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 83434,
+        "likes": 4242,
+        "comments_count": 132,
+        "shares": 626,
+        "saves": 3605
+      },
+      "tools_mentioned": [
+        "ChatGPT",
+        "Claude (Lead Dev)",
+        "Rebirth",
+        "Lemonade",
+        "BloxBot"
+      ],
+      "core_lesson": "Matriks kolaborasi multi-AI dalam membangun game Roblox: ChatGPT untuk ideasi & game loop, Claude untuk scripting Luau & bug fixing, Rebirth & Lemonade untuk arsitektur fitur besar, dan BloxBot untuk asistensi cepat.",
+      "community_insights": "Konsensus developer: Claude tetap menjadi model terunggul dalam menulis kode Luau yang bersih dan minim error dibanding model lainnya.",
+      "top_comments": [
+        {
+          "id": "7704222854367740693",
+          "text": "claude does it all better than every other ai",
+          "digg_count": 27,
+          "reply_total": 6,
+          "create_time": 1793779184,
+          "user": {
+            "unique_id": "nrx.aee",
+            "nickname": "ɴʀx.ᴀᴇ"
+          }
+        },
+        {
+          "id": "7703684413170942742",
+          "text": "isn't lemonade just a claude reskin",
+          "digg_count": 5,
+          "reply_total": 2,
+          "create_time": 1793653820,
+          "user": {
+            "unique_id": "oneeyed60",
+            "nickname": "OneEyed"
+          }
+        },
+        {
+          "id": "7705144102396052242",
+          "text": "Claude gave me a virus",
+          "digg_count": 3,
+          "reply_total": 6,
+          "create_time": 1793993671,
+          "user": {
+            "unique_id": "user071082184",
+            "nickname": "🌐"
+          }
+        },
+        {
+          "id": "7700181604216242951",
+          "text": "how about you use roblox studio for roblox studio instead of stinky clankers",
+          "digg_count": 10,
+          "reply_total": 15,
+          "create_time": 1792838251,
+          "user": {
+            "unique_id": "dummydamian2763",
+            "nickname": "🖤🤎💚🌸Groundskeeper🌸💚🤎🖤"
+          }
+        },
+        {
+          "id": "7693239774831837985",
+          "text": "use chatgpt for ideas and images and everything else for Claude trust",
+          "digg_count": 21,
+          "reply_total": 4,
+          "create_time": 1791221982,
+          "user": {
+            "unique_id": "etotheemperor",
+            "nickname": "Eto"
+          }
+        },
+        {
+          "id": "7697879570720064274",
+          "text": "I use Gemini to consult and discuss, Claude to code, ChatGPT to create image, and Meshy to create mesh",
+          "digg_count": 15,
+          "reply_total": 7,
+          "create_time": 1792302266,
+          "user": {
+            "unique_id": "gloudy.roblox",
+            "nickname": "GloudyRoblox"
+          }
+        },
+        {
+          "id": "7702629890419868437",
+          "text": "How about ai's making graphics and mais?",
+          "digg_count": 1,
+          "reply_total": 2,
+          "create_time": 1793408300,
+          "user": {
+            "unique_id": "saeitoshi144",
+            "nickname": "Aynoxx🇵🇸🇩🇿🪄"
+          }
+        },
+        {
+          "id": "7698251066711016214",
+          "text": "idk what to buy i already worked with chatgpt astra on roblox and now i want to buy the PRO plan but idk if i should change to claude or stick to chatgpt when i already know how to use it",
+          "digg_count": 0,
+          "reply_total": 6,
+          "create_time": 1792388857,
+          "user": {
+            "unique_id": "tikejjjaim",
+            "nickname": "TiKeJ"
+          }
+        },
+        {
+          "id": "7701260989584802612",
+          "text": "best is no ai",
+          "digg_count": 3,
+          "reply_total": 3,
+          "create_time": 1793089567,
+          "user": {
+            "unique_id": "slender.hater",
+            "nickname": "fat connor"
+          }
+        },
+        {
+          "id": "7695542576938631957",
+          "text": "This is just an all included undisclosed ad",
+          "digg_count": 52,
+          "reply_total": 1,
+          "create_time": 1791758174,
+          "user": {
+            "unique_id": "sikkuntjad",
+            "nickname": "jad"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/9b475e62173745849ec627d7e883c3e1~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=BZQ%2FiBZTh1fKQdOCyRvJO%2FyilN4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/7a08b0941bc54db0ab25e9a035a2843a~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=Vt45IkjwGcdjKk0rn7Mlu3KRKVk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/804ec4a2161544b2b0efc27ca67829d9~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=yUxzENJKMPdtUsrRcZ6mD6Mp54U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/486e54d513ec47b48c1ac3d54aa8ff6d~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=Eq7a1%2FKlRZUtGmi7LX6ilVocqdk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/cfb74d4702fd4f9c947c960d8adeb5a8~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=6CcKWWwGKKlsTFVLFePnHBp1OvQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/8cf40e7ff09a4108bae59ba2767b610f~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=KP9kY7wabsKVXAQSFauFiJo03Ek%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-i-photomode-euttp/8407d157267a440bbeecd36a5c78aaae~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=VJ%2BUfuot98sNhvSgiWW8Vc3nIiI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7699176642056342798",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@izzyytech/video/7699176642056342798",
+      "title": "#sauce #roblox #development #ai #developer ",
+      "creator": {
+        "name": "Isaiah",
+        "handle": "@izzyytech",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/34450cf7be2927cd820e515fd19a4f76~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=d9d1d53a&x-expires=1794733200&x-signature=jH6BBLrTRcXx8kz3wiii8Fm7q6o%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=avatar",
+        "profile_benefit": "@izzyytech mengadvokasi transparansi dan open source tooling bagi pengembang Roblox muda."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 195629,
+        "likes": 13561,
+        "comments_count": 526,
+        "shares": 2100,
+        "saves": 11970
+      },
+      "tools_mentioned": [
+        "github.com/izzyfrm/roblox-ai",
+        "Roblox Prompt Templates",
+        "Context Injectors"
+      ],
+      "core_lesson": "Repositori open-source `roblox-ai` (`github.com/izzyfrm/roblox-ai`) yang memuat sistem prompt khusus untuk scripting Luau dan integrasi AI studio.",
+      "community_insights": "Diskusi keamanan penting (@ScottBra, @Cat): Waspadai skrip berbahaya pihak ketiga yang berpotensi menyuntikkan backdoor atau cookie-logging pada project studio.",
+      "top_comments": [
+        {
+          "id": "7699176797950444302",
+          "text": "github.com/izzyfrm/roblox-ai",
+          "digg_count": 72,
+          "reply_total": 31,
+          "create_time": 1792604356,
+          "user": {
+            "unique_id": "izzyytech",
+            "nickname": "Isaiah"
+          }
+        },
+        {
+          "id": "7700574949396792097",
+          "text": "malware speed run",
+          "digg_count": 534,
+          "reply_total": 15,
+          "create_time": 1792929847,
+          "user": {
+            "unique_id": "scottbra",
+            "nickname": "ScottBra"
+          }
+        },
+        {
+          "id": "7699245150384554765",
+          "text": "I fw this heavy. People don’t realize that gatekeeping the ai methods will only make ai slop exist for longer. By giving everyone the same tools innovation occurs finna check this out",
+          "digg_count": 694,
+          "reply_total": 4,
+          "create_time": 1792620266,
+          "user": {
+            "unique_id": "futurism1",
+            "nickname": "rithwik"
+          }
+        },
+        {
+          "id": "7699955242944398082",
+          "text": "700 references and 5 injection prompts",
+          "digg_count": 586,
+          "reply_total": 10,
+          "create_time": 1792785566,
+          "user": {
+            "unique_id": "thecatloverofcats",
+            "nickname": "Cat"
+          }
+        },
+        {
+          "id": "7699269454224966431",
+          "text": "how to getted cookie loggered brooo 😂😂😂",
+          "digg_count": 92,
+          "reply_total": 28,
+          "create_time": 1792625901,
+          "user": {
+            "unique_id": "terrainss",
+            "nickname": "Terrain"
+          }
+        },
+        {
+          "id": "7699270455097983758",
+          "text": "Or use Hermes agent. Same thing",
+          "digg_count": 8,
+          "reply_total": 4,
+          "create_time": 1792626122,
+          "user": {
+            "unique_id": "jackblack9040",
+            "nickname": "Jack The Snacc"
+          }
+        },
+        {
+          "id": "7699251268305011470",
+          "text": "This cookie logged me",
+          "digg_count": 93,
+          "reply_total": 9,
+          "create_time": 1792621679,
+          "user": {
+            "unique_id": "kayla.bb38",
+            "nickname": "Kayla | Antibullying Advocate✋"
+          }
+        },
+        {
+          "id": "7700702352164815617",
+          "text": "Yall open source doesn’t mean malware free 😭",
+          "digg_count": 56,
+          "reply_total": 3,
+          "create_time": 1792959517,
+          "user": {
+            "unique_id": "eurosk",
+            "nickname": "eurosk"
+          }
+        },
+        {
+          "id": "7700379104721797909",
+          "text": "first time dev here what went wrong? I spent 16USD on ads",
+          "digg_count": 6,
+          "reply_total": 16,
+          "create_time": 1792884249,
+          "user": {
+            "unique_id": "stepkuijkk0",
+            "nickname": "ok"
+          }
+        },
+        {
+          "id": "7699832051301647126",
+          "text": "Check it out, no brainrot/rebirth slop",
+          "digg_count": 7,
+          "reply_total": 21,
+          "create_time": 1792756885,
+          "user": {
+            "unique_id": "samantabrezina",
+            "nickname": "Samanta Brezina"
+          }
+        }
+      ],
+      "images": null
+    },
+    {
+      "id": "tt_7700821738992471302",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@scalegames/photo/7700821738992471302",
+      "title": "Like and Follow for more roblox game developer content. #roblox #robloxstudio #robloxdev #developer #fyp ",
+      "creator": {
+        "name": "Scaleify",
+        "handle": "@scalegames",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/ffd5ef74b74e4cdebc92d80975054317~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=273abf93&x-expires=1794733200&x-signature=03QGJz1%2B6rvctKKz3j%2F84VzBLF0%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@scalegames berfokus pada strategi growth hacking dan monetisasi bagi Roblox developers."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 102143,
+        "likes": 8462,
+        "comments_count": 283,
+        "shares": 1488,
+        "saves": 7504
+      },
+      "tools_mentioned": [
+        "Scaleify",
+        "Roblox Ad Manager",
+        "Player Retention Metrics"
+      ],
+      "core_lesson": "Strategi pemasaran dan peluncuran game Roblox menggunakan platform Scaleify untuk memaksimalkan retensi dan efisiensi iklan.",
+      "community_insights": "Komunitas membahas biaya ad credits vs konversi riil pemain aktif, serta pentingnya gameplay loop yang adiktif sebelum memasang iklan berbayar.",
+      "top_comments": [
+        {
+          "id": "7701030137143264021",
+          "text": "🥷🏿 what you mean 16 credits a day I’m not a billionaire",
+          "digg_count": 211,
+          "reply_total": 40,
+          "create_time": 1793035815,
+          "user": {
+            "unique_id": "eavzak221",
+            "nickname": "eavzak22"
+          }
+        },
+        {
+          "id": "7707673015215801119",
+          "text": "Can I use USD instead ad credits the conversion rate is terrible",
+          "digg_count": 1,
+          "reply_total": 0,
+          "create_time": 1794582513,
+          "user": {
+            "unique_id": "zz_1zz_",
+            "nickname": "zz_1zz_"
+          }
+        },
+        {
+          "id": "7701839401357542165",
+          "text": "yall scared to invest actual money",
+          "digg_count": 47,
+          "reply_total": 1,
+          "create_time": 1793224245,
+          "user": {
+            "unique_id": "realmthfr",
+            "nickname": "Ⓜ️"
+          }
+        },
+        {
+          "id": "7707569547934860052",
+          "text": "chat please try it, is addicting",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794558393,
+          "user": {
+            "unique_id": "akir0r6",
+            "nickname": "akiro"
+          }
+        },
+        {
+          "id": "7701758987968398111",
+          "text": "Use actual money not credits",
+          "digg_count": 43,
+          "reply_total": 6,
+          "create_time": 1793205545,
+          "user": {
+            "unique_id": "treighwashere",
+            "nickname": "TreighABN"
+          }
+        },
+        {
+          "id": "7702397563432911646",
+          "text": "And how much is 16 ad credit?",
+          "digg_count": 0,
+          "reply_total": 13,
+          "create_time": 1793354257,
+          "user": {
+            "unique_id": "jay_account77",
+            "nickname": "Jay_account"
+          }
+        },
+        {
+          "id": "7701030282128884481",
+          "text": "my game died before it even hit 1 ccu 💔💔💔",
+          "digg_count": 21,
+          "reply_total": 10,
+          "create_time": 1793035853,
+          "user": {
+            "unique_id": "survivethebat2026",
+            "nickname": "survivethebat"
+          }
+        },
+        {
+          "id": "7704192922263520013",
+          "text": "I’ve done 20 bucks a day for 5 days ts bro",
+          "digg_count": 0,
+          "reply_total": 4,
+          "create_time": 1793772302,
+          "user": {
+            "unique_id": "tallguyidfk",
+            "nickname": "Tallguyidfk"
+          }
+        },
+        {
+          "id": "7701483376906486546",
+          "text": "6% ctr is unheard of",
+          "digg_count": 1,
+          "reply_total": 8,
+          "create_time": 1793141360,
+          "user": {
+            "unique_id": "yexorin",
+            "nickname": "yexorin"
+          }
+        },
+        {
+          "id": "7706216487456080662",
+          "text": "Can you try please 🙏 ?",
+          "digg_count": 1,
+          "reply_total": 2,
+          "create_time": 1794243371,
+          "user": {
+            "unique_id": "zephyr.devs",
+            "nickname": "zephyr.dev"
+          }
+        }
+      ],
+      "images": [
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/3547bf5c7d4643d1b38b6396bfee75f0~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=BfTkarjDyrb%2BUqGYxf4F%2BUt6vb8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/f5e8012eab9b4a6bae990b3eeada03a3~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=WrtDDHjqwzbW9k67b2jTkJsiYnA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/69a1bfcc32fb425faca911dc9cc5c339~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=f%2BjMgewxwgKGPNsIdXzry5pA8JA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/924d544fe44a4fb5a934fd1c9f48e9be~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=%2Br8k2Uxcdkh5x7sW17fxQ32Uqiw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/4efcf74f34394942837629d4442e5e30~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=ReIZ2nUOLuo5Xwe4Dlpd8cT%2BwSw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1",
+        "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/c0902c7b22874461b0b48e6cce326fa7~tplv-photomode-image.jpeg?dr=9616&x-expires=1794819600&x-signature=6LCRdML7UhH4CjqR%2Ffk1imsBeZ0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast8&ftpl=1"
+      ]
+    },
+    {
+      "id": "tt_7694650082246937878",
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@uglyydev/video/7694650082246937878",
+      "title": "BEST PLUGINS FOR EVERY ROBLOX STUDIO JOB! (ui designer) #robloxstudio #robloxstudiotutorial#tutorial #robloxdev #plugin",
+      "creator": {
+        "name": "uglyydev",
+        "handle": "@uglyydev",
+        "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/763062004893c055b403e959a79ed836~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=2990c7da&x-expires=1794733200&x-signature=%2FJ6BgZUUJmC2WApdcuQ1C0PeeEI%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+        "profile_benefit": "@uglyydev membagikan tutorial teknis dan kurasi plugin esensial untuk pengembang game Roblox."
+      },
+      "category": "Roblox Game Development with AI (Roblox MCP, Luau AI, Plugins & UI+)",
+      "stats": {
+        "plays": 116187,
+        "likes": 8295,
+        "comments_count": 116,
+        "shares": 1011,
+        "saves": 6783
+      },
+      "tools_mentioned": [
+        "UI+ Plugin",
+        "BloxFig",
+        "Roundify",
+        "Roblox Studio Plugins"
+      ],
+      "core_lesson": "Daftar plugin wajib untuk UI Designer Roblox Studio: UI+ (untuk scaling dan constraints otomatis agar UI tidak hancur di layar HP), BloxFig (import dari Figma), dan Roundify.",
+      "community_insights": "Tips pro-tips (@mydex, 31 likes): Gunakan UI+ untuk memilih 1 GUI root lalu klik 'For Children' untuk menerapkan auto-scaling dan constraint secara instan ke seluruh elemen tombol dan teks.",
+      "top_comments": [
+        {
+          "id": "7695484543801705247",
+          "text": "Nah just use Claude",
+          "digg_count": 13,
+          "reply_total": 4,
+          "create_time": 1791744646,
+          "user": {
+            "unique_id": "apfrm205_",
+            "nickname": "🪖"
+          }
+        },
+        {
+          "id": "7700797529664127766",
+          "text": "making a ui plugin video without mentioning BloxFig is crazy✌️",
+          "digg_count": 0,
+          "reply_total": 4,
+          "create_time": 1792981932,
+          "user": {
+            "unique_id": "jb20914",
+            "nickname": "︎ ︎"
+          }
+        },
+        {
+          "id": "7707811593828827937",
+          "text": "I don't have photo comment but id be happy if anyone would try my game ashen fall on Roblox it's for pc mainly and I put a lot of effort in it",
+          "digg_count": 0,
+          "reply_total": 0,
+          "create_time": 1794614791,
+          "user": {
+            "unique_id": "rtlg.lib",
+            "nickname": "🍂 Ashen Fall 🔮"
+          }
+        },
+        {
+          "id": "7694736195955852054",
+          "text": "ui + is Better for Scaling, you Selected 1 Gui and click forchilden and to scale and add Constantin",
+          "digg_count": 31,
+          "reply_total": 2,
+          "create_time": 1791570404,
+          "user": {
+            "unique_id": "mydex.ae",
+            "nickname": "mydex"
+          }
+        },
+        {
+          "id": "7700603922444665601",
+          "text": "spent a lot of effort on this, please try it )",
+          "digg_count": 1,
+          "reply_total": 4,
+          "create_time": 1792936590,
+          "user": {
+            "unique_id": "yoob.exe",
+            "nickname": "yoob"
+          }
+        },
+        {
+          "id": "7704030192595239712",
+          "text": "do they cost Money?",
+          "digg_count": 1,
+          "reply_total": 4,
+          "create_time": 1793734326,
+          "user": {
+            "unique_id": "masterkeule1981",
+            "nickname": "Masterkeule1981 Bob"
+          }
+        },
+        {
+          "id": "7697077839481160478",
+          "text": "take a couple minutes of your time and try the game out!?",
+          "digg_count": 0,
+          "reply_total": 4,
+          "create_time": 1792115620,
+          "user": {
+            "unique_id": "lovekxrb",
+            "nickname": "￴ ￴ ￴ ￴ ￴ ￴ ￴ ￴ ￴ ￴￴ ￴ ￴ ￴￴ ￴"
+          }
+        },
+        {
+          "id": "7703985744046342920",
+          "text": "why the screen is shaking so much",
+          "digg_count": 1,
+          "reply_total": 1,
+          "create_time": 1793723970,
+          "user": {
+            "unique_id": "kam11boo",
+            "nickname": "♡ ﹕ 𐌊𐌀𐌌𐌉 ! ⸝⸝"
+          }
+        },
+        {
+          "id": "7702929257697706765",
+          "text": "Bruh had to censor \"job\" 😭",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793478008,
+          "user": {
+            "unique_id": "patientduck_og",
+            "nickname": "patientduck_og"
+          }
+        },
+        {
+          "id": "7703108151480894211",
+          "text": "what if the Gui Is maked by a script?",
+          "digg_count": 0,
+          "reply_total": 1,
+          "create_time": 1793519705,
+          "user": {
+            "unique_id": "cakestudioscommunity",
+            "nickname": "Cake Studios"
+          }
+        }
+      ],
+      "images": null
+    }
+  ]
+}
